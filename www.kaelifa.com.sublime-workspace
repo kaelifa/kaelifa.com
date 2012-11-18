@@ -1,0 +1,1100 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"list",
+				"list-style:   (property)"
+			],
+			[
+				"padding",
+				"padding-left:   (property)"
+			],
+			[
+				"forms",
+				"forms"
+			],
+			[
+				"ele",
+				"elements_list"
+			],
+			[
+				"djang",
+				"django-templates/"
+			],
+			[
+				"style",
+				"style_guide"
+			],
+			[
+				"cu",
+				"current_datetime"
+			],
+			[
+				"Dog",
+				"DogGender"
+			],
+			[
+				"dae",
+				"datetime"
+			],
+			[
+				"Show",
+				"ShowAddress"
+			],
+			[
+				"In",
+				"IntegerField"
+			],
+			[
+				"CH",
+				"CharField"
+			],
+			[
+				"nu",
+				"null"
+			],
+			[
+				"Ma",
+				"ManyToManyField"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"po",
+				"post_code"
+			],
+			[
+				"sho",
+				"show_secretary"
+			],
+			[
+				"Lo",
+				"Location"
+			],
+			[
+				"FOr",
+				"ForeignKey"
+			],
+			[
+				"Cl",
+				"ClassType"
+			],
+			[
+				"For",
+				"ForeignKey"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"EE",
+				"E5E5E5"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"content-e",
+				"content-elementbar"
+			],
+			[
+				"font-",
+				"font-weight"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 324.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"d",
+				"File: Duplicate"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa in",
+				"Package Control: Install Package"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"p in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"todo",
+				"Set Syntax: Todo"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"sy py",
+				"Set Syntax: Python"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"s h",
+				"Snippet: html"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"lor",
+				"Snippet: lorem - Medium paragraph"
+			],
+			[
+				"lo",
+				"Snippet: lorem - One sentence"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"syn h",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"lore",
+				"Snippet: lorem - One sentence"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"quick",
+				"Quick File Creator: Create directory"
+			],
+			[
+				"mana",
+				"Fetch: Manage"
+			],
+			[
+				"zen",
+				"Zen Coding: Wrap zen as you type"
+			],
+			[
+				"zen ",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setting de",
+				"Preferences: Settings - Default"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syn mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"cssco",
+				"Sort via CSScomb"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"JSLint"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 484.0
+	},
+	"console":
+	{
+		"height": 275.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css/styles.css",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/functions/_colour-opacity.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/elements/_hx.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/elements/_body.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/mixins/_rgba.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/styles.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/elements/_html.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/mixins/_font-sizing.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/functions/_colourOpacity.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/layout/_content.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/base.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/show/details.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/global/_form.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/views.py",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/variables/_font-stacks.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/models.py",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/urls.py",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/global/_typography.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/test.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/forms.py",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/class/details.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/template-images/background/stock-illustration-17267432-seamless-pattern-with-agility-training.jpg",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/class/list.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/dog/details.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/user/details.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/.sass-cache/57074ca2f01dfeffc80d1bdd40c0033de225e125/_shared.sassc",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/dog/list.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/show/list.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/elements/Ordered list",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/navigation/_primary.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/elements/_nav.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/elements/_a.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/global/_normalize.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/home/logged-out.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/calendar/view.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/registration/login.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/registration/register.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/site/about.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/site/contact.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/elements.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/index.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/home/logged-in.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/templatetags/custom.py",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/settings.py",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/home/",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/home/logged-in-home.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/home/home.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/logged-in-home.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/home.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/helpers/_sticky.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/elements/Link",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/manage.py",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/migrations/0003_auto__del_dogsex__add_doggender__del_field_dog_dog_sex__add_field_dog_.py",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/dog",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/frontend/login.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/form/Password field",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/form/Text field",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/form/Textarea",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/form/Submit",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/ie.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/_settings.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/config.rb",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/form/Select dropdown",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/form/Select grouped dropdown",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/foundation.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/scaffold/_grid.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/elements/Unordered list",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/form/Radio buttons",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/form/Checkbox",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/form/Radio",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/form/Text input",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Blockquote",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Bold",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Citation",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Italic",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Ordered list",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Paragraph",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Quote",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Sub",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Sup",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Unordered list",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Abbreviation",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Horizontal rule",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Headings",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/Link",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/hr",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/abbr",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/unordered-list",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/style-guide/elements.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css/app.css",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css/main.css",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/MIT-LICENSE.txt",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/_sticky.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/helpers/_settings.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/ordered-list",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippet.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/headings",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/p",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/p.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/admin.py",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/partials/variables/_font-stacks.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/styles.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/index.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/wsgi.py",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/frontend/home.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/layout/MIT-LICENSE.txt",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/layout/siteroot/apple-touch-icon-precomposed.png",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/partials/global/_typography.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/style-guide/elements.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/style-guide/index.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/style-guide.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/django-templates/home.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css/styles.css",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/app.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/config.rb",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/partials/global/_normalize.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/.sass-cache/9be178a2a6c32ff1655d5f312f1fddce8ee7d751/_normalize.scssc",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/.sass-cache/28018ba867f95362aa622a1c7043038960f456c6/ie.scssc",
+		"/Users/kristina/Dropbox/Apps/Sublime Text 2/Packages/Goto-CSS-Declaration/Default (OSX).sublime-keymap",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/kristina/Dropbox/Apps/Sublime Text 2/Packages/Goto-CSS-Declaration/goto_css_declaration.sublime-settings",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/partials/placeholders/",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/test.scss"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src",
+			"waggytails/waggytails/django-templates",
+			"/waggytails/waggytails/django-templates",
+			"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/partials/h5bp/_normalize.scss",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Shared",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Product",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Shared",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Product",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\js",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\js",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Sites\\continuity\\core\\nodetypes",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Sites\\continuity\\core",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-demo-installation-repo\\c5-demo-installation\\brands\\partner-portal\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-demo-installation-repo\\c5-demo-installation\\brands\\partner-portal\\css",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\css",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\js",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\js",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"colourOpacity",
+			"brand",
+			";\n",
+			"\n$color-brand-secondary:		254,67,101; // Cornucopia\n$color-brand-tertiary:			252,157,154; // Peony\n\n$color-brand-complementary:	249,205,173; // Sugar champagne\n$color-brand-complementary:	200,200,169; // Timothy Hay",
+			"shadow",
+			"$color-copy",
+			"color",
+			";\n",
+			"//",
+			"\\d.",
+			"\\d",
+			"body",
+			"p>",
+			"div",
+			"{% for field_name in form %}",
+			"div",
+			"class_instance",
+			"dog_name",
+			"ClassForm",
+			"render_to_response",
+			"show",
+			")\n",
+			"class show",
+			"show_details",
+			"{% block \"title\" %}: ",
+			"block",
+			"{% block \"title\" %}: ",
+			"show",
+			"CharField",
+			"TextField",
+			"home/logged-in.html",
+			"show_details",
+			"show/details",
+			"Class",
+			"class_list",
+			"dog",
+			"class_row",
+			"ClassForm",
+			"class_row",
+			"show",
+			"<a",
+			"qual",
+			"vet",
+			"P",
+			"dog",
+			"class_row",
+			"),\n",
+			"proces",
+			"urls",
+			"contrib.auth",
+			"formPasswordField_UID",
+			"formTextField_UID",
+			"sticky",
+			"//**",
+			"//@",
+			"// /** ",
+			"980px",
+			"}",
+			"*",
+			" ",
+			";",
+			":",
+			"{",
+			"}",
+			"{",
+			">\n",
+			"formSelectGroupUID",
+			"formSelectUID",
+			"formPasswordField",
+			"formTextField",
+			"formSelect",
+			"formSelectGroup",
+			"1",
+			"radio",
+			"Radio",
+			"radio",
+			"Radio",
+			"radio",
+			"2",
+			"radio1",
+			"settings",
+			"null=false",
+			"sex",
+			"):\n",
+			"sex",
+			"static",
+			"sub",
+			"Sub",
+			"rows=\"10\"",
+			"article",
+			"eol",
+			"address",
+			"website",
+			"show_secretary_",
+			"max_length=500",
+			"show_secretary_address",
+			" =",
+			"models",
+			"worming",
+			"qualifier = models.ForeignKey(Qualifier)",
+			"IntegerField",
+			"line",
+			"end",
+			"null = True, blank = True)",
+			"max_length = 500",
+			"    '",
+			"template",
+			"\";\n",
+			"html",
+			"// * 3// */",
+			"// * 2// */",
+			"// * 1// */",
+			"//*",
+			" */",
+			" * ",
+			"/*",
+			"/*!",
+			"/*",
+			"/>\n",
+			"div",
+			">\n",
+			"<li><a href=\"#\">LIVE</a></li>",
+			"productHover",
+			"footer",
+			"recent",
+			">",
+			"ProductList",
+			"[img"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{% block \"title\" %}",
+			"*/\n",
+			"// 3",
+			"// 2",
+			"// 1",
+			"($double-radius);",
+			"($default-radius);",
+			"DDDDDD",
+			"#FFFF97;",
+			"#CCCCCC;",
+			"#EEEEEE;",
+			"#000000;",
+			"#BBBBBB;",
+			"#FFFFFF;",
+			"#E4ECF0;",
+			"#555555;",
+			"#DDDDDD;",
+			"#333333;",
+			"#EFEFEF",
+			"#666666;",
+			"#CCCCCC;",
+			"#000000;",
+			"#B8B8B9;",
+			"#FFFFFF;",
+			"#EEEEEE;",
+			"#FFFFFF;",
+			"#308CB5;",
+			"#EEEEEE;",
+			"#E9E9E9;",
+			"#DDDDDD;",
+			"<p class=\"prototype\">[/PROTOTYPE HTML]</p>",
+			"<p class=\"prototype\">[PROTOTYPE HTML]</p>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"styles",
+				"waggytails/waggytails/layout/css/styles.css"
+			],
+			[
+				"st",
+				"waggytails/waggytails/layout/css-src/styles.scss"
+			],
+			[
+				"",
+				"waggytails/waggytails/layout/css-src/partials/layout/_footer.scss"
+			],
+			[
+				"det",
+				"waggytails/waggytails/django-templates/show/details.html"
+			],
+			[
+				"for",
+				"waggytails/waggytails/layout/css-src/partials/global/_form.scss"
+			],
+			[
+				"ba",
+				"waggytails/waggytails/django-templates/base.html"
+			],
+			[
+				"vie",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"vi",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"s",
+				"waggytails/waggytails/layout/css-src/styles.scss"
+			],
+			[
+				"ur",
+				"waggytails/waggytails/urls.py"
+			],
+			[
+				"b",
+				"waggytails/waggytails/django-templates/base.html"
+			],
+			[
+				"t",
+				"waggytails/waggytails/layout/css-src/partials/global/_typography.scss"
+			],
+			[
+				"col",
+				"waggytails/waggytails/layout/css-src/partials/variables/_colour-palette.scss"
+			],
+			[
+				"u",
+				"waggytails/waggytails/urls.py"
+			],
+			[
+				"he",
+				"waggytails/waggytails/layout/css-src/partials/layout/_header.scss"
+			],
+			[
+				"fon",
+				"waggytails/waggytails/layout/css-src/partials/variables/_font-stacks.scss"
+			],
+			[
+				"f",
+				"waggytails/waggytails/forms.py"
+			],
+			[
+				"sidebar",
+				"waggytails/waggytails/layout/.sass-cache/57074ca2f01dfeffc80d1bdd40c0033de225e125/_shared.sassc"
+			],
+			[
+				"sty",
+				"waggytails/waggytails/layout/css-src/styles.scss"
+			],
+			[
+				"fo",
+				"waggytails/waggytails/forms.py"
+			],
+			[
+				"lis",
+				"waggytails/waggytails/django-templates/class/list.html"
+			],
+			[
+				"mod",
+				"waggytails/waggytails/models.py"
+			],
+			[
+				"no",
+				"waggytails/waggytails/layout/css-src/partials/global/_normalize.scss"
+			],
+			[
+				"typ",
+				"waggytails/waggytails/layout/css-src/partials/global/_typography.scss"
+			],
+			[
+				"deta",
+				"waggytails/waggytails/django-templates/class/details.html"
+			],
+			[
+				"ho",
+				"waggytails/waggytails/django-templates/home/logged-in.html"
+			],
+			[
+				"de",
+				"waggytails/waggytails/django-templates/dog/details.html"
+			],
+			[
+				"sho",
+				"waggytails/waggytails/django-templates/show/list.html"
+			],
+			[
+				"mo",
+				"waggytails/waggytails/models.py"
+			],
+			[
+				"show",
+				"waggytails/waggytails/django-templates/show/list.html"
+			],
+			[
+				"list",
+				"waggytails/waggytails/django-templates/dog/list.html"
+			],
+			[
+				"log",
+				"waggytails/waggytails/django-templates/home/logged-in.html"
+			],
+			[
+				"hom",
+				"waggytails/waggytails/django-templates/logged-in-home.html"
+			],
+			[
+				"v",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"l",
+				"waggytails/waggytails/django-templates/registration/login.html"
+			],
+			[
+				"li",
+				"waggytails/waggytails/django-templates/style-guide/snippets/elements/Link"
+			],
+			[
+				"ma",
+				"waggytails/manage.py"
+			],
+			[
+				"man",
+				"waggytails/manage.py"
+			],
+			[
+				"set",
+				"waggytails/waggytails/settings.py"
+			],
+			[
+				"view",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"se",
+				"waggytails/waggytails/settings.py"
+			],
+			[
+				"or",
+				"waggytails/waggytails/django-templates/style-guide/snippets/elements/Ordered list"
+			],
+			[
+				"un",
+				"waggytails/waggytails/django-templates/style-guide/snippets/elements/Unordered list"
+			],
+			[
+				"tex",
+				"waggytails/waggytails/django-templates/style-guide/snippets/form/Text field"
+			],
+			[
+				"00",
+				"waggytails/waggytails/migrations/0003_auto__del_dogsex__add_doggender__del_field_dog_dog_sex__add_field_dog_.py"
+			],
+			[
+				"nor",
+				"css-src/partials/global/_normalize.scss"
+			],
+			[
+				".scss",
+				".sass-cache/28018ba867f95362aa622a1c7043038960f456c6/ie.scssc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/inetpub/wwwroot/C5-Demo/development/c5-demo/build/c5-demo-installation-repo/crm-public-site.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true
+}
