@@ -135,9 +135,13 @@
 	"build_system": "Packages/JSLint/JSLint.sublime-build",
 	"command_palette":
 	{
-		"height": 324.0,
+		"height": 47.0,
 		"selected_items":
 		[
+			[
+				"sideb",
+				"View: Toggle Open Files in Side Bar"
+			],
 			[
 				"pack",
 				"Preferences: Browse Packages"
@@ -383,7 +387,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 484.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -1092,9 +1096,9 @@
 		"width": 380.0
 	},
 	"show_minimap": false,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 208.0,
 	"status_bar_visible": true
 }
