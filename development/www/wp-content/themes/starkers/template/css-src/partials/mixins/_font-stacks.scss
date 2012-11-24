@@ -1,0 +1,9 @@
+@mixin default-font-stack {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+@mixin headline-font-stack {
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+@mixin logo-font-stack {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}

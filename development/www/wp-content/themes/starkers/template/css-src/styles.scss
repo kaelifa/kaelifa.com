@@ -1,10 +1,67 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@charset "UTF-8";
 
-@import "compass/reset";
+// * @projectDescription: Kaelifa.com
+// * @file: styles.css
+// * @author: Kristina Auckland <kristina.auckland@gmail.com>
+// * @version: 0.1
+// * @date: 2012-11-24
 
-body {
-	background: yellow;
-}
+// * NB. This is the master Sass file which imports all the partials.
+// * No CSS should be written in this file.
+
+// ** @section: Compass */
+@import "compass/css3";
+
+// ** @section: Variables */
+@import "partials/variables/colour-palette";
+
+// ** @section: Mixins */
+@import "partials/mixins/font-sizing";
+@import "partials/mixins/font-stacks";
+@import "partials/mixins/rgba-bg";
+
+// ** @section: Global */
+@import "partials/global/border-box";
+@import "partials/global/selection";
+@import "partials/global/normalize";
+@import "partials/global/typography";
+
+// ** @section: Elements */
+@import "partials/elements/html";
+@import "partials/elements/body";
+@import "partials/elements/nav";
+@import "partials/elements/a";
+@import "partials/elements/hx";
+@import "partials/elements/hr";
+
+// ** @section: Scaffold */
+@import "partials/scaffold/grid";
+
+// ** @section: Layout */
+@import "partials/default-layout/wrapper";
+@import "partials/default-layout/header";
+@import "partials/default-layout/body";
+@import "partials/default-layout/footer";
+
+// ** @section: Navigation */
+@import "partials/navigation/primary";
+
+// ** @section: Modules */
+// @import "partials/modules/XXXX";
+
+// ** @section: Plugins */
+// @import "partials/plugins/XXXX";
+
+// ** @section: Helpers */
+// @import "partials/helpers/ir";
+// @import "partials/helpers/hidden";
+// @import "partials/helpers/visually-hidden";
+// @import "partials/helpers/invisible";
+// @import "partials/helpers/clearfix";
+// @import "partials/helpers/XXXX";
+
+// ** @section: Print */
+@import "partials/media/print";
+
+// ** @section: Development */
+// @import "partials/development/debug";
