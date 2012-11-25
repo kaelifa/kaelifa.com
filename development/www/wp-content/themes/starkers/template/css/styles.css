@@ -323,10 +323,13 @@ html {
 
 /* line 1, ../css-src/partials/elements/_body.scss */
 body {
-  background: 176, 161, 143;
+  background: white url("/wp-content/themes/starkers/template/images/background/bg.png") no-repeat bottom right fixed;
   color: #1a1a1a;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   margin: 0;
+  padding: 24px 0;
+  position: relative;
+  text-aign: center;
 }
 
 /* line 4, ../css-src/partials/elements/_nav.scss */
@@ -451,6 +454,14 @@ hr {
   _position: relative;
   _left: -3px;
   _margin-right: -3px;
+}
+
+/* line 1, ../css-src/partials/default-layout/_wrapper.scss */
+.layoutWrapper {
+  margin: 0 auto;
+  padding: 5px;
+  text-align: left;
+  width: 960px;
 }
 
 @media print {
