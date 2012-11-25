@@ -21,4 +21,5 @@
 		<!-- wp head end -->
 	</head>
 	<body <?php body_class(); ?>>
+		<div class="layoutWrapper">
 
