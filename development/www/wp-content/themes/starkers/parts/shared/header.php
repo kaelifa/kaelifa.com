@@ -4,7 +4,7 @@
 	<?php bloginfo( 'description' ); ?>
 	<?php get_search_form(); ?>
 </header>
-<nav class="navPrimary">
+<nav class="navPrimary row">
 	<ul>
 		<!-- <li><a href="/">Blog</a></li> -->
 		<li class="current"><a href="index.html">About</a></li>

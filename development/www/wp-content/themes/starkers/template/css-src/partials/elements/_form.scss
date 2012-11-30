@@ -1,0 +1,13 @@
+fieldset {
+	border: none;
+	padding: .5em;
+	&:hover {
+		background: #00A0C6;
+		color: #FFFFFF;
+	}
+}
+.formField {
+	background: #8ADBFF;
+	@include border-radius(0.75em, 0.75em);
+	margin-bottom: 1em;
+}

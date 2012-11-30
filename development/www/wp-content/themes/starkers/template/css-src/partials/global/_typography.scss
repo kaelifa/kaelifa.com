@@ -60,8 +60,7 @@ ul {
 	margin-top: 0;
 	margin-bottom: 1em;
 }
-small,
-aside {
+small {
 	// font-size: 10px;
 	@include font-size(1.0);
 }

@@ -1,3 +1,17 @@
 .navPrimary {
-
+	li {
+		margin-right: 1em;
+	}
+	a {
+		background: #00A0C6;
+		@include border-radius(0.75em, 0.75em);
+		color: #FFFFFF;
+		padding: .5em 2em;
+		text-decoration: none;
+		@include single-text-shadow;
+		&:hover,
+		.current & {
+			background: #8ADBFF;
+		}
+	}
 }

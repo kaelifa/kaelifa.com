@@ -1,6 +1,9 @@
 a {
+	color: #E41B5B;
+	font-weight: bold;
 	text-decoration: underline;
 	&:hover {
+		color: #00A0C6;
 		text-decoration: none;
 	}
 }
