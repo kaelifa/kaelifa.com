@@ -35,6 +35,6 @@
 			</ul>
 		</aside>
 		<div class="footerCopy">
-			<p>&copy; <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. All rights reserved. XX</p>
+			<p>&copy; <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.</p>
 		</div>
 	</footer>

@@ -1,3 +1,4 @@
 .social {
-	@include zen-grid-item(3, 5);
+	// @include zen-grid-item(3, 5);
+	@include span-columns(4 omega,12);
 }

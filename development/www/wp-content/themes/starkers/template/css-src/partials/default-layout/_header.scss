@@ -1,6 +1,7 @@
 .layoutHeader {
-	@include zen-clear();
-	@include zen-grid-item(7, 1);
+	// @include zen-clear();
+	// @include zen-grid-item(7, 1);
+	clear: both;
 	a {
 		text-decoration: none;
 	}

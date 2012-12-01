@@ -13,8 +13,9 @@
 // ** @section: Compass */
 @import "compass/css3";
 
-// ** @section: Zen Grid */
-@import "zen";
+// ** @section: Grid */
+// @import "zen";
+@import "susy";
 
 // ** @section: Variables */
 @import "partials/variables/colour-palette";

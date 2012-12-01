@@ -1,3 +1,4 @@
 .contact {
-	@include zen-grid-item(4, 1);
+	// @include zen-grid-item(4, 1);
+	@include span-columns(8,12);
 }

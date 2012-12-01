@@ -2,24 +2,24 @@
 $zen-column-count: 7;
 $zen-gutter-width: 10px;
 
-.container {
-	// Apply this mixin to the container.
-	@include zen-grid-container;
-}
+// .container {
+// 	// Apply this mixin to the container.
+// 	@include zen-grid-container;
+// }
 // http://zengrids.com/
-.twocols {
-	@include zen-grid-item(2, 1);
-}
-.fourcols {
-	@include zen-grid-item(4, 3);
-}
-.onecol {
-	@include zen-grid-item(1, 7);
-}
-.fullwidth {
-	@include zen-clear();
-	@include zen-grid-item(3, 5);
-}
-.test4 {
-	@include zen-grid-item(4, 1);
-}
+// .twocols {
+// 	@include zen-grid-item(2, 1);
+// }
+// .fourcols {
+// 	@include zen-grid-item(4, 3);
+// }
+// .onecol {
+// 	@include zen-grid-item(1, 7);
+// }
+// .fullwidth {
+// 	@include zen-clear();
+// 	@include zen-grid-item(3, 5);
+// }
+// .test4 {
+// 	@include zen-grid-item(4, 1);
+// }
