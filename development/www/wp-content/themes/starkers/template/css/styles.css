@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Project built using scss, the output css file will get overwritten */
 /* line 1, ../css-src/partials/global/_border-box.scss */
 * {
   box-sizing: border-box;
@@ -523,6 +524,25 @@ fieldset:hover {
   text-decoration: none;
 }
 
+/* line 1, ../css-src/partials/default-layout/_body.scss */
+.layoutBody {
+  clear: left;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
 /* line 1, ../css-src/partials/default-layout/_footer.scss */
 .layoutFooter {
   clear: left;
@@ -542,11 +562,29 @@ fieldset:hover {
   _overflow-y: visible;
 }
 
-/* line 2, ../css-src/partials/navigation/_primary.scss */
+/* line 1, ../css-src/partials/navigation/_primary.scss */
+.navPrimary {
+  clear: left;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+/* line 4, ../css-src/partials/navigation/_primary.scss */
 .navPrimary li {
   margin-right: 1em;
 }
-/* line 5, ../css-src/partials/navigation/_primary.scss */
+/* line 7, ../css-src/partials/navigation/_primary.scss */
 .navPrimary a {
   background: #00A0C6;
   -webkit-border-radius: 0.75em 0.75em;
@@ -557,9 +595,64 @@ fieldset:hover {
   text-decoration: none;
   text-shadow: 0px 1px 3px rgba(255, 0, 0, 0.6);
 }
-/* line 13, ../css-src/partials/navigation/_primary.scss */
+/* line 15, ../css-src/partials/navigation/_primary.scss */
 .navPrimary a:hover, .current .navPrimary a {
   background: #8ADBFF;
+}
+
+/* line 1, ../css-src/partials/modules/_contact.scss */
+.contact {
+  float: left;
+  width: 57.14286%;
+  margin-left: 0%;
+  margin-right: -57.14286%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
+/* line 1, ../css-src/partials/modules/_social.scss */
+.social {
+  float: left;
+  width: 42.85714%;
+  margin-left: 57.14286%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
+/* line 1, ../css-src/partials/modules/_footer-copy.scss */
+.footerCopy {
+  clear: left;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
 }
 
 @media print {

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*! Project built using scss, the output css file will get overwritten */
 
 // * @projectDescription: Kaelifa.com
 // * @file: styles.css
@@ -53,7 +54,9 @@
 @import "partials/navigation/primary";
 
 // ** @section: Modules */
-// @import "partials/modules/XXXX";
+@import "partials/modules/contact";
+@import "partials/modules/social";
+@import "partials/modules/footer-copy";
 
 // ** @section: Plugins */
 // @import "partials/plugins/XXXX";
