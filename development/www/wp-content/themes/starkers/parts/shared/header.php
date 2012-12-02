@@ -8,6 +8,6 @@
 	<ul>
 		<!-- <li><a href="/">Blog</a></li> -->
 		<li class="current"><a href="index.html">About</a></li>
-		<li><a href="#contact" title="Contact">Contact</a></li>
+		<li><a href="#contact">Contact</a></li>
 	</ul>
 </nav>
