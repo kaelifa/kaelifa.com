@@ -243,9 +243,9 @@ html {
 
 /* line 10, ../css-src/partials/global/_typography.scss */
 body {
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 1.4;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1.6;
 }
 
 /* line 15, ../css-src/partials/global/_typography.scss */
@@ -329,7 +329,6 @@ body {
   margin: 0;
   padding: 24px 0;
   position: relative;
-  text-aign: center;
 }
 
 /* line 4, ../css-src/partials/elements/_nav.scss */
@@ -370,21 +369,56 @@ hr {
 /* line 1, ../css-src/partials/elements/_form.scss */
 fieldset {
   border: none;
+}
+
+/* line 4, ../css-src/partials/elements/_form.scss */
+.formField {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background: #8ADBFF;
+  -webkit-border-radius: 0.5rem 0.5rem;
+  -moz-border-radius: 0.5rem / 0.5rem;
+  border-radius: 0.5rem / 0.5rem;
+  margin-bottom: 1em;
   padding: .5em;
 }
-/* line 4, ../css-src/partials/elements/_form.scss */
-fieldset:hover {
+/* line 10, ../css-src/partials/elements/_form.scss */
+.formField:hover {
   background: #00A0C6;
   color: #FFFFFF;
 }
-
-/* line 9, ../css-src/partials/elements/_form.scss */
-.formField {
-  background: #8ADBFF;
-  -webkit-border-radius: 0.75em 0.75em;
-  -moz-border-radius: 0.75em / 0.75em;
-  border-radius: 0.75em / 0.75em;
-  margin-bottom: 1em;
+/* line 14, ../css-src/partials/elements/_form.scss */
+.formField label {
+  width: 35.89744%;
+  float: left;
+  margin-right: 2.5641%;
+  display: inline;
+}
+/* line 21, ../css-src/partials/elements/_form.scss */
+.formField input[type=text],
+.formField input[type=search],
+.formField input[type=email],
+.formField input[type=password],
+.formField textarea {
+  border: none;
+  -webkit-border-radius: 0.5rem 0.5rem;
+  -moz-border-radius: 0.5rem / 0.5rem;
+  border-radius: 0.5rem / 0.5rem;
+  display: block;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  height: 40px;
+  height: 4.0rem;
+  line-height: 40px;
+  line-height: 4.0rem;
+}
+/* line 32, ../css-src/partials/elements/_form.scss */
+.formField textarea {
+  height: 150px;
+  height: 15.0rem;
 }
 
 /* line 1, ../css-src/partials/default-layout/_wrapper.scss */
@@ -423,10 +457,6 @@ fieldset:hover {
   clear: both;
 }
 
-/* line 1, ../css-src/partials/navigation/_primary.scss */
-.navPrimary {
-  clear: both;
-}
 /* line 5, ../css-src/partials/navigation/_primary.scss */
 .navPrimary li {
   margin-right: 1em;
@@ -438,11 +468,16 @@ fieldset:hover {
   -moz-border-radius: 0.75em / 0.75em;
   border-radius: 0.75em / 0.75em;
   color: #FFFFFF;
+  display: block;
   padding: .5em 2em;
   text-decoration: none;
   text-shadow: 0px 1px 3px rgba(255, 0, 0, 0.6);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
-/* line 16, ../css-src/partials/navigation/_primary.scss */
+/* line 19, ../css-src/partials/navigation/_primary.scss */
 .navPrimary a:hover, .current .navPrimary a {
   background: #8ADBFF;
 }
@@ -467,6 +502,17 @@ fieldset:hover {
 /* line 1, ../css-src/partials/modules/_footer-copy.scss */
 .footerCopy {
   clear: both;
+}
+
+/* line 1, ../css-src/partials/modules/_latest-posts.scss */
+.latestPosts {
+  list-style: none;
+  padding-left: 0;
+}
+/* line 4, ../css-src/partials/modules/_latest-posts.scss */
+.latestPosts li {
+  list-style: none;
+  padding-left: 0;
 }
 
 @media print {

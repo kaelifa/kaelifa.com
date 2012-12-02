@@ -1,8 +1,8 @@
 
 <header class="layoutHeader">
 	<h1><a href="/"><?php bloginfo( 'name' ); ?></a></h1>
-	<?php bloginfo( 'description' ); ?>
-	<?php get_search_form(); ?>
+	<p class="tagline"><?php bloginfo( 'description' ); ?></p>
+	<!-- <?php get_search_form(); ?> -->
 </header>
 <nav class="navPrimary">
 	<ul>

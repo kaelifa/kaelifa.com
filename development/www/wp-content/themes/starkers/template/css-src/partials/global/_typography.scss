@@ -8,9 +8,9 @@ html {
 	font-size: 62.5%;
 }
 body {
-	// font-size: 16px;
-	@include font-size(1.6);
-	line-height: 1.4;
+	// font-size: 18px;
+	@include font-size(1.8);
+	line-height: 1.6;
 }
 h1 {
 	// font-size: 55px;

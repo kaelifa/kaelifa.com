@@ -1,0 +1,27 @@
+// https://github.com/scottkellum/singularity
+// $columns can be set to just about anything you'd like, from a given number of equal columns
+//  as per the default, a list of different sizes for an asymmetric grid (such as 8, 4, 2 for
+//  three columns, the first columns twice the size of the second which is twice the size of
+//  the third), or utalizing one of the built in generating functions, such as repeat() for
+//  repeating columns or ratio() for ratio based columns. See the Full Documentation for all
+//  of your options. Columns are written in unitless numbers.
+// $columns: 1, 2, 3, 3, 5;
+
+// $gutter will add a percentage gutter to each column. The gutter must be specified in the
+//  same units as the $columns.
+// $gutter: .25;
+
+// $padding will add a given padding to each column. This can be any unit-based number you
+//  choose. All columns get box-sizing: border-box, so any padding you add will be placed
+//  inside the column itself. It is possible to add padding to individual columns, see the
+//  Full Documentation for how.
+// $padding: 0px;
+
+// Basic usage of the Grid Span mixin requires you to tell the mixin how many columns you
+//  would like to span and from what column you are starting. While this may not seem
+//  intuative for symmetric grids, it is essential for assymetric grids as, well, they are
+//  different sizes. The below example will span two columns, starting at the third column,
+//  which in the end will span a total of 6/17 of our columns.
+// #foo {
+//   @include grid-span(2, 3);
+// }

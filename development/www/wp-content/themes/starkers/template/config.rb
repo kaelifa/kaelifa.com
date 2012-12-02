@@ -1,6 +1,8 @@
 # Require any additional compass plugins here.
 # require 'zen-grids'
 require "susy"
+require 'modular-scale'
+# require 'singularitygs'
 
 # Set this to the root of your project when deployed:
 http_path = "/"

@@ -16,6 +16,8 @@
 // ** @section: Grid */
 // @import "zen";
 @import "susy";
+// @import "singularitygs";
+@import 'modular-scale';
 
 // ** @section: Variables */
 @import "partials/variables/colour-palette";
@@ -58,6 +60,7 @@
 @import "partials/modules/contact";
 @import "partials/modules/social";
 @import "partials/modules/footer-copy";
+@import "partials/modules/latest-posts";
 
 // ** @section: Plugins */
 // @import "partials/plugins/XXXX";

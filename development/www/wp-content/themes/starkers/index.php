@@ -19,7 +19,7 @@
 
 	<?php if ( have_posts() ): ?>
 	<h2>Latest Posts</h2>
-	<ol>
+	<ol class="latestPosts">
 	<?php while ( have_posts() ) : the_post(); ?>
 		<li>
 			<article>
