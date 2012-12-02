@@ -3,7 +3,9 @@
 }
 @mixin headline-font-stack {
 	font-family: "Yummo-SemiBold", "Arial Bold", Gadget, sans-serif;
+	text-shadow: 0 0 1px #000;
 }
 @mixin logo-font-stack {
 	font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
+	text-shadow: 0 0 1px #000;
 }
