@@ -24,6 +24,7 @@
 @import "partials/variables/default-text-shadow";
 
 // ** @section: Mixins */
+@import "partials/mixins/font-face";
 @import "partials/mixins/font-sizing";
 @import "partials/mixins/font-stacks";
 @import "partials/mixins/rgba-bg";
@@ -59,6 +60,7 @@
 // ** @section: Modules */
 @import "partials/modules/contact";
 @import "partials/modules/social";
+@import "partials/modules/icon";
 @import "partials/modules/footer-copy";
 @import "partials/modules/latest-posts";
 

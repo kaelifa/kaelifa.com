@@ -1,5 +1,29 @@
 @charset "UTF-8";
 /* Project built using scss, the output css file will get overwritten */
+@font-face {
+  font-family: 'JustVectorRegular';
+  src: url("/wp-content/themes/starkers/template/fonts/justvector-webfont.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/justvector-webfont.eot?#iefix") format("eot"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.svg#webfontmuk63VQd") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JustVector';
+  src: url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.eot?#iefix") format("eot"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.svg#webfontkw9J4lGf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'yummo_semiboldregular';
+  src: url("/wp-content/themes/starkers/template/fonts/yummo_semibold-webfont.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/yummo_semibold-webfont.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/starkers/template/fonts/yummo_semibold-webfont.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/yummo_semibold-webfont.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/yummo_semibold-webfont.svg#yummo_semiboldregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* line 1, ../css-src/partials/global/_border-box.scss */
 * {
   box-sizing: border-box;
@@ -252,7 +276,7 @@ body {
 h1 {
   font-size: 55px;
   font-size: 5.5rem;
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-family: "yummo_semiboldregular", "Arial Bold", Gadget, sans-serif;
 }
 
 /* line 26, ../css-src/partials/global/_typography.scss */
@@ -442,7 +466,7 @@ fieldset {
 .layoutHeader {
   clear: both;
 }
-/* line 5, ../css-src/partials/default-layout/_header.scss */
+/* line 3, ../css-src/partials/default-layout/_header.scss */
 .layoutHeader a {
   text-decoration: none;
 }
@@ -457,11 +481,11 @@ fieldset {
   clear: both;
 }
 
-/* line 5, ../css-src/partials/navigation/_primary.scss */
+/* line 2, ../css-src/partials/navigation/_primary.scss */
 .navPrimary li {
   margin-right: 1em;
 }
-/* line 8, ../css-src/partials/navigation/_primary.scss */
+/* line 5, ../css-src/partials/navigation/_primary.scss */
 .navPrimary a {
   background: #00A0C6;
   -webkit-border-radius: 0.75em 0.75em;
@@ -477,7 +501,7 @@ fieldset {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 19, ../css-src/partials/navigation/_primary.scss */
+/* line 16, ../css-src/partials/navigation/_primary.scss */
 .navPrimary a:hover, .current .navPrimary a {
   background: #8ADBFF;
 }
@@ -497,6 +521,34 @@ fieldset {
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
+}
+/* line 3, ../css-src/partials/modules/_social.scss */
+.social .icon {
+  font-size: 36px;
+  font-size: 3.6rem;
+}
+/* line 6, ../css-src/partials/modules/_social.scss */
+.social .icon1 {
+  font-family: "JustVector";
+  text-shadow: 0 0 1px #000;
+}
+/* line 9, ../css-src/partials/modules/_social.scss */
+.social .icon2 {
+  font-family: "JustVectorRegular";
+  text-shadow: 0 0 1px #000;
+}
+/* line 13, ../css-src/partials/modules/_social.scss */
+.social ul,
+.social li {
+  float: left;
+  list-style: none;
+  padding-left: 0;
+}
+/* line 18, ../css-src/partials/modules/_social.scss */
+.social a {
+  display: block;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 /* line 1, ../css-src/partials/modules/_footer-copy.scss */
