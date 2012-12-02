@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("//hello.myfonts.net/count/24f625");
 /* Project built using scss, the output css file will get overwritten */
 @font-face {
   font-family: 'JustVectorRegular';
@@ -16,10 +17,39 @@
   font-style: normal;
 }
 
+/* @license
+ * MyFonts Webfont Build ID 2422309, 2012-12-02T09:08:37-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Yummo by Flat-it
+ * URL: http://www.myfonts.com/fonts/flat-it/yummo/regular/
+ *
+ * Webfont: Yummo Semi Bold by Flat-it
+ * URL: http://www.myfonts.com/fonts/flat-it/yummo/semi-bold/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2422309
+ * Webfonts copyright: Copyright (c) 2011 by Ryoichi Tsunekawa. All rights reserved.
+ *
+ * © 2012 Bitstream Inc
+*/
 @font-face {
-  font-family: 'yummo_semiboldregular';
-  src: url("/wp-content/themes/starkers/template/fonts/yummo_semibold-webfont.eot");
-  src: url("/wp-content/themes/starkers/template/fonts/yummo_semibold-webfont.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/starkers/template/fonts/yummo_semibold-webfont.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/yummo_semibold-webfont.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/yummo_semibold-webfont.svg#yummo_semiboldregular") format("svg");
+  font-family: 'Yummo-Regular';
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_0_0.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_0_0.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.svg#wf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yummo-SemiBold';
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_1_0.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_1_0.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.svg#wf") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -276,7 +306,7 @@ body {
 h1 {
   font-size: 55px;
   font-size: 5.5rem;
-  font-family: "yummo_semiboldregular", "Arial Bold", Gadget, sans-serif;
+  font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
 }
 
 /* line 26, ../css-src/partials/global/_typography.scss */
@@ -284,7 +314,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-family: "Yummo-SemiBold", "Arial Bold", Gadget, sans-serif;
   font-weight: normal;
 }
 
