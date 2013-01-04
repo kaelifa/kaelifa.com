@@ -1,23 +1,8 @@
 .social {
 	@include span-columns(4 omega,12);
-	.icon {
-		@include font-size(3.6);
-	}
-	.icon1 {
-		@include social-icon-font-face;
-	}
-	.icon2 {
-		@include social-icon2-font-face;
-	}
 	ul,
 	li {
-		float: left;
 		list-style: none;
 		padding-left: 0;
-	}
-	a {
-		display: block;
-		font-weight: normal;
-		text-decoration: none;
 	}
 }

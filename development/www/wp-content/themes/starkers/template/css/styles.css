@@ -527,13 +527,12 @@ fieldset {
   display: block;
   padding: .5em 2em;
   text-decoration: none;
-  text-shadow: 0px 1px 3px rgba(255, 0, 0, 0.6);
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 16, ../css-src/partials/navigation/_primary.scss */
+/* line 14, ../css-src/partials/navigation/_primary.scss */
 .navPrimary a:hover, .current .navPrimary a {
   background: #8ADBFF;
 }
@@ -554,33 +553,40 @@ fieldset {
   #margin-left: -1em;
   display: inline;
 }
-/* line 3, ../css-src/partials/modules/_social.scss */
-.social .icon {
-  font-size: 36px;
-  font-size: 3.6rem;
-}
-/* line 6, ../css-src/partials/modules/_social.scss */
-.social .icon1 {
-  font-family: "JustVector";
-  text-shadow: 0 0 1px #000;
-}
-/* line 9, ../css-src/partials/modules/_social.scss */
-.social .icon2 {
-  font-family: "JustVectorRegular";
-  text-shadow: 0 0 1px #000;
-}
-/* line 13, ../css-src/partials/modules/_social.scss */
+/* line 4, ../css-src/partials/modules/_social.scss */
 .social ul,
 .social li {
-  float: left;
   list-style: none;
   padding-left: 0;
 }
-/* line 18, ../css-src/partials/modules/_social.scss */
-.social a {
-  display: block;
-  font-weight: normal;
-  text-decoration: none;
+
+/* line 1, ../css-src/partials/modules/_icon.scss */
+.icon {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}
+
+/* line 8, ../css-src/partials/modules/_icon.scss */
+.icon-twitter {
+  background-image: url(/wp-content/themes/starkers/template/icons/twitter_alt.svg);
+}
+
+/* line 11, ../css-src/partials/modules/_icon.scss */
+.icon-linkedin {
+  background-image: url(/wp-content/themes/starkers/template/icons/linkedin.svg);
+}
+
+/* line 14, ../css-src/partials/modules/_icon.scss */
+.icon-github {
+  background-image: url(/wp-content/themes/starkers/template/icons/github_alt.svg);
+}
+
+/* line 32, ../css-src/partials/modules/_icon.scss */
+.icon-colourlovers {
+  color: #000;
 }
 
 /* line 1, ../css-src/partials/modules/_footer-copy.scss */

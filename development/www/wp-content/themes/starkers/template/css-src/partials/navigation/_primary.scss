@@ -9,9 +9,7 @@
 		display: block;
 		padding: .5em 2em;
 		text-decoration: none;
-		@include single-text-shadow;
 		@include transition(all 0.3s ease);
-		// @include transition(background .3s .3s ease );
 		&:hover,
 		.current & {
 			background: #8ADBFF;

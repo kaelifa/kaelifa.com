@@ -1,6 +1,6 @@
 
-	<footer class="layoutFooter">
-		<h2>Contact me</h2>
+	<footer class="layoutFooter" role="contentinfo">
+		<!-- <h2>Contact me</h2>
 		<div class="contact">
 			<form action="contact.php" method="post">
 				<fieldset class="formField formText formRequired">
@@ -19,21 +19,21 @@
 					<input type="submit" value="Send message" class="input-submit" />
 				</fieldset>
 			</form>
-		</div>
+		</div> -->
 
 		<aside class="social">
-			<h3>Elsewhere</h3>
+			<h3>Online</h3>
 			<ul>
-				<li><a class="icon icon1 icon-twitter" title="Twitter" href="http://www.twitter.com/kaelifa">t</a></li>
-				<li><a class="icon icon1 icon-linkedin" title="LinkedIn" href="http://www.linkedin.com/in/kaelifa">l</a></li>
-				<li><a class="icon icon2 icon-github" title="GitHub" href="https://github.com/kaelifa">j</a></li>
-				<!-- <li><a class="icon icon-endorse-me" title="Endorse.me" href="http://endorse.me/kaelifa">Endorse.me</a></li>
-				<li><a class="icon icon-pinterest" title="Pinterest" href="http://pinterest.com/kaelifa/">Pinterest</a></li> -->
+				<li><a title="Twitter" href="http://www.twitter.com/kaelifa"><!-- <i class="icon icon-twitter"></i> --> Twitter</a></li>
+				<li><a title="LinkedIn" href="http://www.linkedin.com/in/kaelifa"><!-- <i class="icon icon-linkedin"></i> --> LinkedIn</a></li>
+				<li><a title="GitHub" href="https://github.com/kaelifa"><!-- <i class="icon icon-github"></i> --> Github</a></li>
+				<li><a title="Pinterest" href="http://pinterest.com/kaelifa/"><!-- <i class="icon icon-pinterest"></i> --> Pinterest</a></li>
 				<!--
-				<li><a class="icon icon1 icon-zerply" title="Zerply" href="http://zerply.com/kaelifa">z</a></li>
-				<li><a class="icon icon2 icon-behance" title="Behance" href="http://www.behance.net/kaelifa">G</a></li>
-				<li><a class="icon icon1 icon-dribbble" title="Dribbble" href="http://dribbble.com/kaelifa">d</a></li>
-				<li><a class="icon icon-colourlovers" title="colourlovers" href="http://www.colourlovers.com/lover/Fuchsia">ColourLovers</a></li>
+				<li><a title="Zerply" href="http://zerply.com/kaelifa"><i class="icon icon-zerply"></i> Zerply</a></li>
+				<li><a title="Behance" href="http://www.behance.net/kaelifa"><i class="icon icon-behance"></i> Behance</a></li>
+				<li><a title="Dribbble" href="http://dribbble.com/kaelifa">class="icon icon-dribbble" Dribbble</a></li>
+				<li><a title="colourlovers" href="http://www.colourlovers.com/lover/Fuchsia"><i class="icon icon-colourlovers"></i> ColourLovers</a></li>
+				<li><a title="Storify" href="http://storify.com/kaelifa"><i class="icon icon-storify"></i> Storify</a></li>
 				-->
 			</ul>
 		</aside>
