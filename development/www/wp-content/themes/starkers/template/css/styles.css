@@ -547,7 +547,7 @@ fieldset {
 
 /* line 1, ../css-src/partials/modules/_social.scss */
 .social {
-  width: 32.20339%;
+  width: 49.15254%;
   float: right;
   margin-right: 0;
   #margin-left: -1em;
@@ -559,6 +559,10 @@ fieldset {
   list-style: none;
   margin-bottom: 0;
   padding-left: 0;
+}
+/* line 9, ../css-src/partials/modules/_social.scss */
+.social li {
+  margin-right: 1em;
 }
 
 /* line 1, ../css-src/partials/modules/_icon.scss */
@@ -585,14 +589,17 @@ fieldset {
   background-image: url(/wp-content/themes/starkers/template/icons/github_alt.svg);
 }
 
-/* line 32, ../css-src/partials/modules/_icon.scss */
+/* line 29, ../css-src/partials/modules/_icon.scss */
 .icon-colourlovers {
   color: #000;
 }
 
 /* line 1, ../css-src/partials/modules/_footer-copy.scss */
 .footerCopy {
-  clear: both;
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
 }
 
 /* line 1, ../css-src/partials/modules/_latest-posts.scss */

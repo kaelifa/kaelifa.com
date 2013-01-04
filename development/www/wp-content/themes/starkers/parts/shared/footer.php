@@ -21,8 +21,10 @@
 			</form>
 		</div> -->
 
-		<div class="social">
-			<h3>Online</h3>
+		<div class="footerCopy">
+			<p>&copy; 2008 <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.</p>
+		</div>
+		<nav class="social">
 			<ul>
 				<li><a title="Twitter" href="http://www.twitter.com/kaelifa"><!-- <i class="icon icon-twitter"></i> --> Twitter</a></li>
 				<li><a title="LinkedIn" href="http://www.linkedin.com/in/kaelifa"><!-- <i class="icon icon-linkedin"></i> --> LinkedIn</a></li>
@@ -36,8 +38,5 @@
 				<li><a title="Storify" href="http://storify.com/kaelifa"><i class="icon icon-storify"></i> Storify</a></li>
 				-->
 			</ul>
-		</div>
-		<div class="footerCopy">
-			<p>&copy; <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.</p>
-		</div>
+		</nav>
 	</footer>

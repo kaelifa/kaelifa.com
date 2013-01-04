@@ -1,9 +1,12 @@
 .social {
-	@include span-columns(4 omega,12);
+	@include span-columns(6 omega,12);
 	ul,
 	li {
 		list-style: none;
 		margin-bottom: 0;
 		padding-left: 0;
+	}
+	li {
+		margin-right: 1em;
 	}
 }
