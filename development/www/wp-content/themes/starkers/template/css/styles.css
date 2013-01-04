@@ -494,13 +494,17 @@ fieldset {
   clear: both;
 }
 
-/* line 1, ../css-src/partials/default-layout/_header.scss */
-.layoutHeader {
-  clear: both;
-}
-/* line 3, ../css-src/partials/default-layout/_header.scss */
+/* line 2, ../css-src/partials/default-layout/_header.scss */
 .layoutHeader a {
   text-decoration: none;
+}
+
+/* line 6, ../css-src/partials/default-layout/_header.scss */
+.intro {
+  width: 66.10169%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
 }
 
 /* line 1, ../css-src/partials/default-layout/_body.scss */
@@ -513,11 +517,19 @@ fieldset {
   clear: both;
 }
 
-/* line 2, ../css-src/partials/navigation/_primary.scss */
+/* line 1, ../css-src/partials/navigation/_primary.scss */
+.navPrimary {
+  width: 32.20339%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+/* line 3, ../css-src/partials/navigation/_primary.scss */
 .navPrimary li {
   margin-right: 1em;
 }
-/* line 5, ../css-src/partials/navigation/_primary.scss */
+/* line 6, ../css-src/partials/navigation/_primary.scss */
 .navPrimary a {
   background: #00A0C6;
   -webkit-border-radius: 0.75em 0.75em;
@@ -525,14 +537,14 @@ fieldset {
   border-radius: 0.75em / 0.75em;
   color: #FFFFFF;
   display: block;
-  padding: .5em 2em;
+  padding: .5em 1em;
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 14, ../css-src/partials/navigation/_primary.scss */
+/* line 15, ../css-src/partials/navigation/_primary.scss */
 .navPrimary a:hover, .current .navPrimary a {
   background: #8ADBFF;
 }

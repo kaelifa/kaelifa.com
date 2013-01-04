@@ -1,6 +1,8 @@
 .layoutHeader {
-	clear: both;
 	a {
 		text-decoration: none;
 	}
+}
+.intro {
+	@include span-columns(8,12);
 }
