@@ -7,7 +7,7 @@
 	</div>
 	<nav class="navPrimary" role="navigation">
 		<ul>
-			<li class="current"><a href="index.html">About</a></li>
+			<!-- <li class="current"><a href="index.html">About</a></li> -->
 			<li><a href="mailto:kaelifa@gmail.com">Contact</a></li>
 		</ul>
 	</nav>
