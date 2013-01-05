@@ -1,3 +1,4 @@
 .layoutFooter {
-	clear: both;
+	@include container;
+	margin-top: 2em;
 }

@@ -1,19 +1,17 @@
 .navPrimary {
 	@include span-columns(4 omega,12);
+	margin-top: 50px;
 	li {
 		margin-right: 1em;
 	}
 	a {
-		background: #00A0C6;
-		@include border-radius(0.75em, 0.75em);
-		color: #FFFFFF;
 		display: block;
-		padding: .5em 1em;
+		line-height: 60px;
+		padding: 0 1em;
 		text-decoration: none;
-		@include transition(all 0.3s ease);
 		&:hover,
 		.current & {
-			background: #8ADBFF;
+
 		}
 	}
 }

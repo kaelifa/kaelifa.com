@@ -308,6 +308,8 @@ h1 {
   font-size: 5.5rem;
   font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
   text-shadow: 0 0 1px #888;
+  margin-top: 24px;
+  margin-bottom: 12px;
 }
 
 /* line 26, ../css-src/partials/global/_typography.scss */
@@ -405,8 +407,12 @@ a {
   color: #E41B5B;
   font-weight: bold;
   text-decoration: underline;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
-/* line 5, ../css-src/partials/elements/_a.scss */
+/* line 6, ../css-src/partials/elements/_a.scss */
 a:hover {
   color: #00A0C6;
   text-decoration: none;
@@ -514,6 +520,19 @@ fieldset {
 
 /* line 1, ../css-src/partials/default-layout/_footer.scss */
 .layoutFooter {
+  *zoom: 1;
+  max-width: 59em;
+  _width: 59em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+/* line 38, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.layoutFooter:after {
+  content: "";
+  display: table;
   clear: both;
 }
 
@@ -524,29 +543,18 @@ fieldset {
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
+  margin-top: 50px;
 }
-/* line 3, ../css-src/partials/navigation/_primary.scss */
+/* line 4, ../css-src/partials/navigation/_primary.scss */
 .navPrimary li {
   margin-right: 1em;
 }
-/* line 6, ../css-src/partials/navigation/_primary.scss */
+/* line 7, ../css-src/partials/navigation/_primary.scss */
 .navPrimary a {
-  background: #00A0C6;
-  -webkit-border-radius: 0.75em 0.75em;
-  -moz-border-radius: 0.75em / 0.75em;
-  border-radius: 0.75em / 0.75em;
-  color: #FFFFFF;
   display: block;
-  padding: .5em 1em;
+  line-height: 60px;
+  padding: 0 1em;
   text-decoration: none;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-/* line 15, ../css-src/partials/navigation/_primary.scss */
-.navPrimary a:hover, .current .navPrimary a {
-  background: #8ADBFF;
 }
 
 /* line 1, ../css-src/partials/modules/_contact.scss */
