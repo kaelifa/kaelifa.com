@@ -30,6 +30,7 @@
 				<li><a title="LinkedIn" href="http://www.linkedin.com/in/kaelifa"><!-- <i class="icon icon-linkedin"></i> --> LinkedIn</a></li>
 				<li><a title="GitHub" href="https://github.com/kaelifa"><!-- <i class="icon icon-github"></i> --> Github</a></li>
 				<li><a title="Pinterest" href="http://pinterest.com/kaelifa/"><!-- <i class="icon icon-pinterest"></i> --> Pinterest</a></li>
+				<li><a title="Flickr" href="http://www.flickr.com/photos/kaelifa/"><!-- <i class="icon icon-flickr"></i> --> Flickr</a></li>
 				<!--
 				<li><a title="Zerply" href="http://zerply.com/kaelifa"><i class="icon icon-zerply"></i> Zerply</a></li>
 				<li><a title="Behance" href="http://www.behance.net/kaelifa"><i class="icon icon-behance"></i> Behance</a></li>
