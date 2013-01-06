@@ -1,3 +1,4 @@
+	</div> <!-- layoutMain closing div -->
 
 	<footer class="layoutFooter" role="contentinfo">
 		<!-- <h2>Contact me</h2>

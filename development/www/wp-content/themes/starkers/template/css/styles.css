@@ -383,7 +383,7 @@ html {
 
 /* line 1, ../css-src/partials/elements/_body.scss */
 body {
-  background: white;
+  background: white url("/wp-content/themes/starkers/template/images/background/bg.png") no-repeat bottom right fixed;
   color: #1a1a1a;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   margin: 0;
@@ -636,6 +636,23 @@ time a {
   margin: 0 0 1em 0;
 }
 
+/* line 1, ../css-src/partials/modules/_main-content.scss */
+.mainContent {
+  width: 66.10169%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+/* line 1, ../css-src/partials/modules/_sub-content.scss */
+.subContent {
+  width: 32.20339%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+
 /* line 1, ../css-src/partials/modules/_contact.scss */
 .contact {
   width: 66.10169%;
@@ -712,14 +729,6 @@ time a {
   padding-left: 0;
 }
 
-/* line 1, ../css-src/partials/modules/_blog-post.scss */
-.blogPost {
-  width: 66.10169%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
-}
-
 /* line 1, ../css-src/partials/modules/_about-the-author.scss */
 .aboutTheAuthor {
   margin-top: 3em;
@@ -733,6 +742,11 @@ time a {
 /* line 4, ../css-src/partials/modules/_data-list.scss */
 .dataList > li {
   list-style: none;
+}
+
+/* line 1, ../css-src/partials/plugins/_disqus.scss */
+#disqus_thread {
+  margin-top: 3em;
 }
 
 @media print {

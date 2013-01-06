@@ -63,6 +63,8 @@
 @import "partials/modules/media-image";
 @import "partials/modules/media-description";
 @import "partials/modules/media-title";
+@import "partials/modules/main-content";
+@import "partials/modules/sub-content";
 @import "partials/modules/contact";
 @import "partials/modules/social";
 @import "partials/modules/icon";
@@ -75,7 +77,7 @@
 @import "partials/modules/comments";
 
 // ** @section: Plugins */
-// @import "partials/plugins/XXXX";
+@import "partials/plugins/disqus";
 
 // ** @section: Helpers */
 // @import "partials/helpers/ir";

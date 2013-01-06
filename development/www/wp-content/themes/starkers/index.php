@@ -15,8 +15,7 @@
 ?>
 <?php get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
-<div class="layoutMain">
-
+<div class="mainContent">
 	<?php if ( have_posts() ): ?>
 	<h2>Latest Posts</h2>
 	<ol class="latestPosts">
@@ -33,6 +32,9 @@
 	<?php else: ?>
 	<h2>No posts to display</h2>
 	<?php endif; ?>
+</div>
+
+<div class="subContent">
 
 </div>
 

@@ -1,6 +1,6 @@
 body {
-	// background: $color-page-bg url('/wp-content/themes/starkers/template/images/background/bg.png') no-repeat bottom right fixed;
-	background: $color-page-bg;
+	background: $color-page-bg url('/wp-content/themes/starkers/template/images/background/bg.png') no-repeat bottom right fixed;
+	// background: $color-page-bg;
 	color: $color-copy;
 	@include default-font-stack;
 	margin: 0;

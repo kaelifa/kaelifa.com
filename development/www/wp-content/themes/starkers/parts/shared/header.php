@@ -12,3 +12,5 @@
 		</ul>
 	</nav>
 </header>
+
+<div class="layoutMain">
