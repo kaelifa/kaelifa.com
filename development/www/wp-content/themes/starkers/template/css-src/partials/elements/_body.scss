@@ -1,9 +1,15 @@
 body {
-	background: $color-page-bg url('/wp-content/themes/starkers/template/images/background/bg.png') no-repeat bottom right fixed;
+	background: $color-page-bg url('/wp-content/themes/starkers/template/images/background/bg.png') no-repeat 100% 115% fixed;
 	// background: $color-page-bg;
 	color: $color-copy;
 	@include default-font-stack;
 	margin: 0;
 	padding: 24px 0;
 	position: relative;
+	@include at-breakpoint($tablet) {
+		background-position: 100% 150%;
+	}
+	@include at-breakpoint($computer) {
+		background-position: 100% 100%;
+	}
 }

@@ -1,5 +1,7 @@
 .social {
-	@include span-columns(8 omega,12);
+	@include at-breakpoint($tablet) {
+		@include span-columns(8 omega,12);
+	}
 	ul,
 	li {
 		list-style: none;

@@ -1,3 +1,6 @@
 .media {
 	@include container;
+	@include at-breakpoint($tablet) {
+		@include container;
+	}
 }

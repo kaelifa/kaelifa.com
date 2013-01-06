@@ -12,7 +12,10 @@ fieldset {
 		color: #FFFFFF;
 	}
 	label {
-		@include span-columns(3,8);
+		display: block;
+		@include at-breakpoint($tablet) {
+			@include span-columns(3,8);
+		}
 	}
 	input[type=text],
 	input[type=search],

@@ -1,10 +1,9 @@
 .layoutHeader {
-	// @include container;
-	@include container($total-columns, $break);
+	@include container;
+	@include at-breakpoint($tablet) {
+		@include container;
+	}
 	a {
 		text-decoration: none;
 	}
-}
-.intro {
-	@include span-columns(8,12);
 }

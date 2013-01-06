@@ -1,4 +1,7 @@
 .layoutFooter {
 	@include container;
+	@include at-breakpoint($tablet) {
+		@include container;
+	}
 	margin-top: 2em;
 }

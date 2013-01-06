@@ -1,3 +1,5 @@
 .footerCopy {
-	@include span-columns(4,12);
+	@include at-breakpoint($tablet) {
+		@include span-columns(4,12);
+	}
 }

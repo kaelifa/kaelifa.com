@@ -383,12 +383,24 @@ html {
 
 /* line 1, ../css-src/partials/elements/_body.scss */
 body {
-  background: white url("/wp-content/themes/starkers/template/images/background/bg.png") no-repeat bottom right fixed;
+  background: white url("/wp-content/themes/starkers/template/images/background/bg.png") no-repeat 100% 115% fixed;
   color: #1a1a1a;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   margin: 0;
   padding: 24px 0;
   position: relative;
+}
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/elements/_body.scss */
+  body {
+    background-position: 100% 150%;
+  }
+}
+@media (min-width: 55em) {
+  /* line 1, ../css-src/partials/elements/_body.scss */
+  body {
+    background-position: 100% 100%;
+  }
 }
 
 /* line 4, ../css-src/partials/elements/_nav.scss */
@@ -455,12 +467,17 @@ fieldset {
 }
 /* line 14, ../css-src/partials/elements/_form.scss */
 .formField label {
-  width: 35.89744%;
-  float: left;
-  margin-right: 2.5641%;
-  display: inline;
+  display: block;
 }
-/* line 21, ../css-src/partials/elements/_form.scss */
+@media (min-width: 41em) {
+  /* line 14, ../css-src/partials/elements/_form.scss */
+  .formField label {
+    width: 35.89744%;
+    float: left;
+    margin-right: 2.5641%;
+  }
+}
+/* line 24, ../css-src/partials/elements/_form.scss */
 .formField input[type=text],
 .formField input[type=search],
 .formField input[type=email],
@@ -479,7 +496,7 @@ fieldset {
   line-height: 40px;
   line-height: 4.0rem;
 }
-/* line 32, ../css-src/partials/elements/_form.scss */
+/* line 35, ../css-src/partials/elements/_form.scss */
 .formField textarea {
   height: 150px;
   height: 15.0rem;
@@ -511,6 +528,22 @@ time a {
   display: table;
   clear: both;
 }
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/default-layout/_wrapper.scss */
+  .layoutWrapper {
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .layoutWrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 
 /* line 1, ../css-src/partials/default-layout/_header.scss */
 .layoutHeader {
@@ -528,23 +561,25 @@ time a {
   display: table;
   clear: both;
 }
-@media (min-width: 61em) {
+@media (min-width: 41em) {
   /* line 1, ../css-src/partials/default-layout/_header.scss */
   .layoutHeader {
-    max-width: 61em;
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .layoutHeader:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
-/* line 4, ../css-src/partials/default-layout/_header.scss */
+/* line 6, ../css-src/partials/default-layout/_header.scss */
 .layoutHeader a {
   text-decoration: none;
-}
-
-/* line 8, ../css-src/partials/default-layout/_header.scss */
-.intro {
-  width: 66.10169%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
 }
 
 /* line 1, ../css-src/partials/default-layout/_main.scss */
@@ -563,6 +598,22 @@ time a {
   display: table;
   clear: both;
 }
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/default-layout/_main.scss */
+  .layoutMain {
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .layoutMain:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 
 /* line 1, ../css-src/partials/default-layout/_footer.scss */
 .layoutFooter {
@@ -580,6 +631,22 @@ time a {
   content: "";
   display: table;
   clear: both;
+}
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/default-layout/_footer.scss */
+  .layoutFooter {
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .layoutFooter:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 /* line 1, ../css-src/partials/navigation/_primary.scss */
@@ -619,6 +686,22 @@ time a {
   display: table;
   clear: both;
 }
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/modules/_media.scss */
+  .media {
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .media:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 
 /* line 1, ../css-src/partials/modules/_media-image.scss */
 .mediaImage {
@@ -628,13 +711,13 @@ time a {
   display: inline;
 }
 
-/* line 1, ../css-src/partials/modules/_media-description.scss */
-.mediaDescription {
-  width: 82.75862%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/modules/_media-description.scss */
+  .mediaDescription {
+    width: 82.75862%;
+    float: right;
+    margin-right: 0;
+  }
 }
 
 /* line 1, ../css-src/partials/modules/_media-title.scss */
@@ -642,47 +725,49 @@ time a {
   margin: 0 0 1em 0;
 }
 
-/* line 1, ../css-src/partials/modules/_main-content.scss */
-.mainContent {
-  width: 66.10169%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/modules/_main-content.scss */
+  .mainContent {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
 }
 
-/* line 1, ../css-src/partials/modules/_sub-content.scss */
-.subContent {
-  width: 32.20339%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/modules/_sub-content.scss */
+  .subContent {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+  }
 }
 
-/* line 1, ../css-src/partials/modules/_contact.scss */
-.contact {
-  width: 66.10169%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/modules/_contact.scss */
+  .contact {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
 }
 
-/* line 1, ../css-src/partials/modules/_social.scss */
-.social {
-  width: 66.10169%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/modules/_social.scss */
+  .social {
+    width: 66.10169%;
+    float: right;
+    margin-right: 0;
+  }
 }
-/* line 4, ../css-src/partials/modules/_social.scss */
+/* line 6, ../css-src/partials/modules/_social.scss */
 .social ul,
 .social li {
   list-style: none;
   margin-bottom: 0;
   padding-left: 0;
 }
-/* line 9, ../css-src/partials/modules/_social.scss */
+/* line 11, ../css-src/partials/modules/_social.scss */
 .social li {
   margin-right: 1em;
 }
@@ -716,12 +801,13 @@ time a {
   color: #000;
 }
 
-/* line 1, ../css-src/partials/modules/_footer-copy.scss */
-.footerCopy {
-  width: 32.20339%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/modules/_footer-copy.scss */
+  .footerCopy {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+  }
 }
 
 /* line 1, ../css-src/partials/modules/_latest-posts.scss */

@@ -1,3 +1,5 @@
 .subContent {
-	@include span-columns(4 omega,12);
+	@include at-breakpoint($tablet) {
+		@include span-columns(4 omega,12);
+	}
 }

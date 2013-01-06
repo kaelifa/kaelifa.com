@@ -1,4 +1,4 @@
-.mainContent {
+.intro {
 	@include at-breakpoint($tablet) {
 		@include span-columns(8,12);
 	}
