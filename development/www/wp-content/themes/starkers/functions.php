@@ -88,9 +88,11 @@
 		<?php if ( $comment->comment_approved == '1' ): ?>
 		<li>
 			<article class="media" id="comment-<?php comment_ID() ?>">
-				<?php echo get_avatar( $comment ); ?>
+				<div class="mediaImage">
+					<?php echo get_avatar( $comment ); ?>
+				</div>
 				<div class="mediaDescription">
-					<h4><?php comment_author_link() ?></h4>
+					<h4 class="mediaTitle"><?php comment_author_link() ?></h4>
 					<time><a href="#comment-<?php comment_ID() ?>" pubdate><?php comment_date() ?> at <?php comment_time() ?></a></time>
 					<?php comment_text() ?>
 				</div>

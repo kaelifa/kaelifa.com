@@ -613,10 +613,27 @@ time a {
   display: table;
   clear: both;
 }
-/* line 3, ../css-src/partials/modules/_media.scss */
-.media img {
+
+/* line 1, ../css-src/partials/modules/_media-image.scss */
+.mediaImage {
+  width: 13.7931%;
   float: left;
-  margin-right: 1em;
+  margin-right: 3.44828%;
+  display: inline;
+}
+
+/* line 1, ../css-src/partials/modules/_media-description.scss */
+.mediaDescription {
+  width: 82.75862%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+
+/* line 1, ../css-src/partials/modules/_media-title.scss */
+.mediaTitle {
+  margin: 0 0 1em 0;
 }
 
 /* line 1, ../css-src/partials/modules/_contact.scss */
@@ -701,6 +718,11 @@ time a {
   float: left;
   margin-right: 1.69492%;
   display: inline;
+}
+
+/* line 1, ../css-src/partials/modules/_about-the-author.scss */
+.aboutTheAuthor {
+  margin-top: 3em;
 }
 
 /* line 1, ../css-src/partials/modules/_data-list.scss */

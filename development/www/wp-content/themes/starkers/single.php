@@ -22,9 +22,11 @@
 
 		<?php if ( get_the_author_meta( 'description' ) ) : ?>
 		<div class="media aboutTheAuthor">
-			<?php echo get_avatar( get_the_author_meta( 'user_email' ) ); ?>
+			<div class="mediaImage">
+				<?php echo get_avatar( get_the_author_meta( 'user_email' ) ); ?>
+			</div>
 			<div class="mediaDescription authorDescription">
-				<h3>About <?php echo get_the_author() ; ?></h3>
+				<h3 class="mediaTitle">About <?php echo get_the_author() ; ?></h3>
 				<?php the_author_meta( 'description' ); ?>
 			</div>
 		</div>
