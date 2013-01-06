@@ -15,7 +15,7 @@
 ?>
 <?php get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
-<div class="layoutBody">
+<div class="layoutMain">
 
 	<?php if ( have_posts() ): ?>
 	<h2>Latest Posts</h2>

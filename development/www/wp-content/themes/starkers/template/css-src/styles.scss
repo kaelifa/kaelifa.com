@@ -30,7 +30,7 @@
 @import "partials/mixins/rgba-bg";
 
 // ** @section: Global */
-@import "partials/global/border-box";
+@include border-box-sizing;
 @import "partials/global/selection";
 @import "partials/global/normalize";
 @import "partials/global/typography";
@@ -43,6 +43,7 @@
 @import "partials/elements/hx";
 @import "partials/elements/hr";
 @import "partials/elements/form";
+@import "partials/elements/time";
 
 // ** @section: Scaffold */
 // @import "partials/scaffold/grid";
@@ -51,18 +52,25 @@
 // ** @section: Layout */
 @import "partials/default-layout/wrapper";
 @import "partials/default-layout/header";
-@import "partials/default-layout/body";
+@import "partials/default-layout/main";
 @import "partials/default-layout/footer";
 
 // ** @section: Navigation */
 @import "partials/navigation/primary";
 
 // ** @section: Modules */
+@import "partials/modules/media";
+@import "partials/modules/media-description";
 @import "partials/modules/contact";
 @import "partials/modules/social";
 @import "partials/modules/icon";
 @import "partials/modules/footer-copy";
 @import "partials/modules/latest-posts";
+@import "partials/modules/blog-post";
+@import "partials/modules/about-the-author";
+@import "partials/modules/author-description";
+@import "partials/modules/data-list";
+@import "partials/modules/comments";
 
 // ** @section: Plugins */
 // @import "partials/plugins/XXXX";

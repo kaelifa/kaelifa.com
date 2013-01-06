@@ -12,7 +12,8 @@
  * @since 		Starkers 4.0
  */
 ?>
-<div id="comments">
+
+<div class="comments">
 	<?php if ( post_password_required() ) : ?>
 	<p>This post is password protected. Enter the password to view any comments</p>
 </div>
@@ -32,7 +33,7 @@
 
 	<h2><?php comments_number(); ?></h2>
 
-	<ol>
+	<ol class="dataList">
 		<?php wp_list_comments( array( 'callback' => 'starkers_comment' ) ); ?>
 	</ol>
 
@@ -42,9 +43,9 @@
 		 */
 		elseif ( ! comments_open() && ! is_page() && post_type_supports( get_post_type(), 'comments' ) ) :
 	?>
-	
+
 	<p>Comments are closed</p>
-	
+
 	<?php endif; ?>
 
 	<?php comment_form(); ?>

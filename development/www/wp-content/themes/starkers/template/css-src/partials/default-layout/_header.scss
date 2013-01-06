@@ -1,4 +1,5 @@
 .layoutHeader {
+	@include container;
 	a {
 		text-decoration: none;
 	}

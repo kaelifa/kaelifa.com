@@ -54,8 +54,10 @@
   font-style: normal;
 }
 
-/* line 1, ../css-src/partials/global/_border-box.scss */
+/* line 14, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_grid.scss */
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -381,7 +383,7 @@ html {
 
 /* line 1, ../css-src/partials/elements/_body.scss */
 body {
-  background: white url("/wp-content/themes/starkers/template/images/background/bg.png") no-repeat bottom right fixed;
+  background: white;
   color: #1a1a1a;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   margin: 0;
@@ -483,11 +485,21 @@ fieldset {
   height: 15.0rem;
 }
 
+/* line 1, ../css-src/partials/elements/_time.scss */
+time {
+  font-style: italic;
+}
+/* line 3, ../css-src/partials/elements/_time.scss */
+time a {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
 /* line 1, ../css-src/partials/default-layout/_wrapper.scss */
 .layoutWrapper {
   *zoom: 1;
-  max-width: 59em;
-  _width: 59em;
+  max-width: 61em;
+  _width: 61em;
   padding-left: 1em;
   padding-right: 1em;
   margin-left: auto;
@@ -500,12 +512,28 @@ fieldset {
   clear: both;
 }
 
-/* line 2, ../css-src/partials/default-layout/_header.scss */
+/* line 1, ../css-src/partials/default-layout/_header.scss */
+.layoutHeader {
+  *zoom: 1;
+  max-width: 61em;
+  _width: 61em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.layoutHeader:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 3, ../css-src/partials/default-layout/_header.scss */
 .layoutHeader a {
   text-decoration: none;
 }
 
-/* line 6, ../css-src/partials/default-layout/_header.scss */
+/* line 7, ../css-src/partials/default-layout/_header.scss */
 .intro {
   width: 66.10169%;
   float: left;
@@ -513,22 +541,33 @@ fieldset {
   display: inline;
 }
 
-/* line 1, ../css-src/partials/default-layout/_body.scss */
-.layoutBody {
+/* line 1, ../css-src/partials/default-layout/_main.scss */
+.layoutMain {
+  *zoom: 1;
+  max-width: 61em;
+  _width: 61em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.layoutMain:after {
+  content: "";
+  display: table;
   clear: both;
 }
 
 /* line 1, ../css-src/partials/default-layout/_footer.scss */
 .layoutFooter {
   *zoom: 1;
-  max-width: 59em;
-  _width: 59em;
+  max-width: 61em;
+  _width: 61em;
   padding-left: 1em;
   padding-right: 1em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
-  padding: 0;
 }
 /* line 38, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .layoutFooter:after {
@@ -556,6 +595,28 @@ fieldset {
   line-height: 60px;
   padding: 0 1em;
   text-decoration: none;
+}
+
+/* line 1, ../css-src/partials/modules/_media.scss */
+.media {
+  *zoom: 1;
+  max-width: 61em;
+  _width: 61em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.media:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 3, ../css-src/partials/modules/_media.scss */
+.media img {
+  float: left;
+  margin-right: 1em;
 }
 
 /* line 1, ../css-src/partials/modules/_contact.scss */
@@ -632,6 +693,24 @@ fieldset {
 .latestPosts li {
   list-style: none;
   padding-left: 0;
+}
+
+/* line 1, ../css-src/partials/modules/_blog-post.scss */
+.blogPost {
+  width: 66.10169%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+/* line 1, ../css-src/partials/modules/_data-list.scss */
+.dataList {
+  list-style: none;
+  padding-left: 0;
+}
+/* line 4, ../css-src/partials/modules/_data-list.scss */
+.dataList > li {
+  list-style: none;
 }
 
 @media print {
