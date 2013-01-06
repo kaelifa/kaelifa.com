@@ -33,6 +33,8 @@
 				<li><a title="GitHub" href="https://github.com/kaelifa"><!-- <i class="icon icon-github"></i> --> Github</a></li>
 				<li><a title="Pinterest" href="http://pinterest.com/kaelifa/"><!-- <i class="icon icon-pinterest"></i> --> Pinterest</a></li>
 				<li><a title="Flickr" href="http://www.flickr.com/photos/kaelifa/"><!-- <i class="icon icon-flickr"></i> --> Flickr</a></li>
+				<li><a title="Fitbit" href="http://www.fitbit.com/user/23F5CX"><!-- <i class="icon icon-fitbit"></i> --> Fitbit</a></li>
+				<li><a title="Runkeeper" href="http://runkeeper.com/user/kaelifa"><!-- <i class="icon icon-runkeeper"></i> --> Runkeeper</a></li>
 				<!--
 				<li><a title="Zerply" href="http://zerply.com/kaelifa"><i class="icon icon-zerply"></i> Zerply</a></li>
 				<li><a title="Behance" href="http://www.behance.net/kaelifa"><i class="icon icon-behance"></i> Behance</a></li>
