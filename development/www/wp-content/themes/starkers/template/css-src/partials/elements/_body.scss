@@ -1,15 +1,14 @@
 body {
-	background: $color-page-bg url('/wp-content/themes/starkers/template/images/background/bg.png') no-repeat 100% 115% fixed;
-	// background: $color-page-bg;
+	background: $color-page-bg url('/wp-content/themes/starkers/template/images/background/bg-mobile.png') no-repeat 95% 100% fixed;
 	color: $color-copy;
 	@include default-font-stack;
 	margin: 0;
 	padding: 24px 0;
 	position: relative;
 	@include at-breakpoint($tablet) {
-		background-position: 100% 150%;
+		background: $color-page-bg url('/wp-content/themes/starkers/template/images/background/bg.png') no-repeat 100% 150% fixed;
 	}
 	@include at-breakpoint($computer) {
-		background-position: 100% 100%;
+		background: $color-page-bg url('/wp-content/themes/starkers/template/images/background/bg.png') no-repeat 100% 115% fixed;
 	}
 }

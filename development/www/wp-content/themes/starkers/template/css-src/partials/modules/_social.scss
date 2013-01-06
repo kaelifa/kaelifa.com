@@ -1,4 +1,5 @@
 .social {
+	@include span-columns(4,5);
 	@include at-breakpoint($tablet) {
 		@include span-columns(8 omega,12);
 	}

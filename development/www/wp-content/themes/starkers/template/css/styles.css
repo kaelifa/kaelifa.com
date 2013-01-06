@@ -299,22 +299,39 @@ html {
 
 /* line 10, ../css-src/partials/global/_typography.scss */
 body {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.6;
 }
-
-/* line 15, ../css-src/partials/global/_typography.scss */
-h1 {
-  font-size: 55px;
-  font-size: 5.5rem;
-  font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
-  text-shadow: 0 0 1px #888;
-  margin-top: 24px;
-  margin-bottom: 12px;
+@media (min-width: 55em) {
+  /* line 10, ../css-src/partials/global/_typography.scss */
+  body {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
 }
 
-/* line 26, ../css-src/partials/global/_typography.scss */
+/* line 17, ../css-src/partials/global/_typography.scss */
+h1 {
+  font-size: 30px;
+  font-size: 3rem;
+  font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
+  text-shadow: 0 0 1px #888;
+  margin: 0 0 0.5em 0;
+}
+@media (min-width: 55em) {
+  /* line 17, ../css-src/partials/global/_typography.scss */
+  h1 {
+    font-size: 55px;
+    font-size: 5.5rem;
+    font-family: "Yummo-Regular", "Arial Bold", Gadget, sans-serif;
+    text-shadow: 0 0 1px #888;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+}
+
+/* line 33, ../css-src/partials/global/_typography.scss */
 h2,
 h3,
 h4,
@@ -324,38 +341,52 @@ h5 {
   font-weight: normal;
 }
 
-/* line 30, ../css-src/partials/global/_typography.scss */
-h2 {
-  font-size: 42px;
-  font-size: 4.2rem;
-}
-
 /* line 37, ../css-src/partials/global/_typography.scss */
-h3 {
-  font-size: 26px;
-  font-size: 2.6rem;
+h2 {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+@media (min-width: 55em) {
+  /* line 37, ../css-src/partials/global/_typography.scss */
+  h2 {
+    font-size: 42px;
+    font-size: 4.2rem;
+  }
 }
 
-/* line 44, ../css-src/partials/global/_typography.scss */
+/* line 46, ../css-src/partials/global/_typography.scss */
+h3 {
+  font-size: 22px;
+  font-size: 2.2rem;
+}
+@media (min-width: 55em) {
+  /* line 46, ../css-src/partials/global/_typography.scss */
+  h3 {
+    font-size: 26px;
+    font-size: 2.6rem;
+  }
+}
+
+/* line 55, ../css-src/partials/global/_typography.scss */
 h4 {
   font-size: 20px;
   font-size: 2rem;
   font-weight: bold;
 }
 
-/* line 49, ../css-src/partials/global/_typography.scss */
+/* line 59, ../css-src/partials/global/_typography.scss */
 h5 {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 
-/* line 53, ../css-src/partials/global/_typography.scss */
+/* line 62, ../css-src/partials/global/_typography.scss */
 h6 {
   font-size: 14px;
   font-size: 1.4rem;
 }
 
-/* line 59, ../css-src/partials/global/_typography.scss */
+/* line 67, ../css-src/partials/global/_typography.scss */
 .formField,
 p,
 ul {
@@ -363,13 +394,13 @@ ul {
   margin-bottom: 1em;
 }
 
-/* line 63, ../css-src/partials/global/_typography.scss */
+/* line 71, ../css-src/partials/global/_typography.scss */
 small {
   font-size: 10px;
   font-size: 1rem;
 }
 
-/* line 67, ../css-src/partials/global/_typography.scss */
+/* line 74, ../css-src/partials/global/_typography.scss */
 button {
   font-weight: bold;
 }
@@ -383,7 +414,7 @@ html {
 
 /* line 1, ../css-src/partials/elements/_body.scss */
 body {
-  background: white url("/wp-content/themes/starkers/template/images/background/bg.png") no-repeat 100% 115% fixed;
+  background: white url("/wp-content/themes/starkers/template/images/background/bg-mobile.png") no-repeat 95% 100% fixed;
   color: #1a1a1a;
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   margin: 0;
@@ -393,13 +424,13 @@ body {
 @media (min-width: 41em) {
   /* line 1, ../css-src/partials/elements/_body.scss */
   body {
-    background-position: 100% 150%;
+    background: white url("/wp-content/themes/starkers/template/images/background/bg.png") no-repeat 100% 150% fixed;
   }
 }
 @media (min-width: 55em) {
   /* line 1, ../css-src/partials/elements/_body.scss */
   body {
-    background-position: 100% 100%;
+    background: white url("/wp-content/themes/starkers/template/images/background/bg.png") no-repeat 100% 115% fixed;
   }
 }
 
@@ -649,20 +680,20 @@ time a {
   }
 }
 
-/* line 1, ../css-src/partials/navigation/_primary.scss */
-.navPrimary {
-  width: 32.20339%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
-  margin-top: 50px;
+@media (min-width: 41em) {
+  /* line 1, ../css-src/partials/navigation/_primary.scss */
+  .navPrimary {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+    margin-top: 50px;
+  }
 }
-/* line 4, ../css-src/partials/navigation/_primary.scss */
+/* line 6, ../css-src/partials/navigation/_primary.scss */
 .navPrimary li {
   margin-right: 1em;
 }
-/* line 7, ../css-src/partials/navigation/_primary.scss */
+/* line 9, ../css-src/partials/navigation/_primary.scss */
 .navPrimary a {
   display: block;
   line-height: 60px;
@@ -761,6 +792,13 @@ time a {
   }
 }
 
+/* line 1, ../css-src/partials/modules/_social.scss */
+.social {
+  width: 79.16667%;
+  float: left;
+  margin-right: 4.16667%;
+  display: inline;
+}
 @media (min-width: 41em) {
   /* line 1, ../css-src/partials/modules/_social.scss */
   .social {
@@ -769,14 +807,14 @@ time a {
     margin-right: 0;
   }
 }
-/* line 6, ../css-src/partials/modules/_social.scss */
+/* line 7, ../css-src/partials/modules/_social.scss */
 .social ul,
 .social li {
   list-style: none;
   margin-bottom: 0;
   padding-left: 0;
 }
-/* line 11, ../css-src/partials/modules/_social.scss */
+/* line 12, ../css-src/partials/modules/_social.scss */
 .social li {
   margin-right: 1em;
 }
