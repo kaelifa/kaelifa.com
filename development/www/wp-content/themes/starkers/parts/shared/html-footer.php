@@ -3,13 +3,21 @@
 		</div>
 
 		<script type="text/javascript">
-			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-		</script>
-		<script type="text/javascript">
-			var pageTracker = _gat._getTracker("UA-1763086-2");
-			pageTracker._initData();
-			pageTracker._trackPageview();
+			var GoSquared = {};
+			GoSquared.acct = "GSN-003226-V";
+			(function(w){
+				function gs(){
+					w._gstc_lt = +new Date;
+					var d = document, g = d.createElement("script");
+					g.type = "text/javascript";
+					g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+					var s = d.getElementsByTagName("script")[0];
+					s.parentNode.insertBefore(g, s);
+				}
+				w.addEventListener ?
+					w.addEventListener("load", gs, false) :
+					w.attachEvent("onload", gs);
+			})(window);
 		</script>
 	</body>
 </html>

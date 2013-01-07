@@ -1,5 +1,12 @@
 .footerCopy {
+	margin: 3em 0 5em 0;
 	@include at-breakpoint($tablet) {
-		@include span-columns(4,12);
+		@include container;
+		margin: 0 0 - $grid-padding;
+	}
+	@include at-breakpoint($computer) {
+		@include container;
+		margin: 0 0 - $grid-padding;
+		margin-bottom: 5em;
 	}
 }

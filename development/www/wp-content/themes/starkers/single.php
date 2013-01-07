@@ -19,18 +19,6 @@
 		</p>
 		<?php the_content(); ?>
 
-		<?php if ( get_the_author_meta( 'description' ) ) : ?>
-		<div class="media aboutTheAuthor">
-			<div class="mediaImage">
-				<?php echo get_avatar( get_the_author_meta( 'user_email' ) ); ?>
-			</div>
-			<div class="mediaDescription authorDescription">
-				<h3 class="mediaTitle">About <?php echo get_the_author() ; ?></h3>
-				<?php the_author_meta( 'description' ); ?>
-			</div>
-		</div>
-		<?php endif; ?>
-
 		<?php comments_template( '', true ); ?>
 
 	</article>

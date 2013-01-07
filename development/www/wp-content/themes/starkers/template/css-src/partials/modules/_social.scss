@@ -1,7 +1,13 @@
 .social {
-	@include span-columns(4,5);
+	@include container;
+	margin: 0 0 - $grid-padding;
 	@include at-breakpoint($tablet) {
-		@include span-columns(8 omega,12);
+		@include container;
+		margin: 0 0 - $grid-padding;
+	}
+	@include at-breakpoint($computer) {
+		@include container;
+		margin: 0 0 - $grid-padding;
 	}
 	ul,
 	li {

@@ -1,5 +1,17 @@
 	</div> <!-- layoutMain closing div -->
 
+	<?php if ( get_the_author_meta( 'description' ) ) : ?>
+	<div class="media aboutTheAuthor">
+		<div class="mediaImage">
+			<?php echo get_avatar( get_the_author_meta( 'user_email' ) ); ?>
+		</div>
+		<div class="mediaDescription authorDescription">
+			<h3 class="mediaTitle">About <?php echo get_the_author() ; ?></h3>
+			<?php the_author_meta( 'description' ); ?>
+		</div>
+	</div>
+	<?php endif; ?>
+
 	<footer class="layoutFooter" role="contentinfo">
 		<!-- <h2>Contact me</h2>
 		<div class="contact">
@@ -22,9 +34,6 @@
 			</form>
 		</div> -->
 
-		<div class="footerCopy">
-			<p>&copy; <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.</p>
-		</div>
 		<nav class="social">
 			<ul>
 				<li><a title="Email" href="mailto:kaelifa@gmail.com"><!-- <i class="icon icon-email"></i> --> Email</a></li>
@@ -44,4 +53,8 @@
 				-->
 			</ul>
 		</nav>
+
+		<div class="footerCopy">
+			<p>&copy; <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.</p>
+		</div>
 	</footer>

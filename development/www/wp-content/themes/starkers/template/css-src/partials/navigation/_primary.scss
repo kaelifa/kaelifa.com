@@ -3,6 +3,10 @@
 		@include span-columns(4 omega,12);
 		margin-top: 50px;
 	}
+	@include at-breakpoint($computer) {
+		@include span-columns(4 omega,12);
+		margin-top: 50px;
+	}
 	li {
 		margin-right: 1em;
 	}
