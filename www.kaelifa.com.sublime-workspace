@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"background-o",
+				"background-position:   (property)"
+			],
+			[
 				"ls",
 				"list-style"
 			],
@@ -140,58 +144,34 @@
 	"buffers":
 	[
 		{
-			"file": "development/www/wp-content/themes/starkers/index.php",
+			"file": "development/www/wp-content/themes/starkers/parts/shared/footer.php",
 			"settings":
 			{
-				"buffer_size": 1345,
+				"buffer_size": 3140,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "development/www/wp-content/themes/starkers/single.php",
+			"file": "development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_wrapper.scss",
 			"settings":
 			{
-				"buffer_size": 1283,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "development/www/wp-content/themes/starkers/parts/shared/html-footer.php",
-			"settings":
-			{
-				"buffer_size": 486,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "development/www/wp-content/themes/starkers/template/css-src/partials/plugins/_disqus.scss",
-			"settings":
-			{
-				"buffer_size": 37,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "development/www/wp-content/themes/starkers/template/css-src/styles.scss",
-			"settings":
-			{
-				"buffer_size": 2783,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "development/www/wp-content/themes/starkers/template/css-src/partials/elements/_body.scss",
-			"settings":
-			{
-				"buffer_size": 270,
+				"buffer_size": 293,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "development/www/wp-content/themes/starkers/template/css-src/partials/modules/_blog-post.scss",
+			"file": "development/www/wp-content/themes/starkers/template/css-src/partials/modules/_sub-content.scss",
 			"settings":
 			{
-				"buffer_size": 15,
+				"buffer_size": 168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_main.scss",
+			"settings":
+			{
+				"buffer_size": 159,
 				"line_ending": "Unix"
 			}
 		},
@@ -199,24 +179,40 @@
 			"file": "development/www/wp-content/themes/starkers/template/css-src/partials/modules/_main-content.scss",
 			"settings":
 			{
-				"buffer_size": 47,
+				"buffer_size": 157,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "development/www/wp-content/themes/starkers/template/css-src/partials/modules/_sub-content.scss",
+			"file": "development/www/wp-content/themes/starkers/template/css-src/partials/navigation/_primary.scss",
 			"settings":
 			{
-				"buffer_size": 52,
+				"buffer_size": 359,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html dir=\"ltr\" lang=\"en-US\">\n\n	<head profile=\"http://gmpg.org/xfn/11\">\n\n		<title>About &bull; Kristina Auckland &bull; Front end web developer</title>\n		<meta name=\"verify-v1\" content=\"xFy1qUCTXX6nUsENpLEuyWWPzcXjYIpCzHXktf5rClI=\">\n\n		<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" />\n		<meta name=\"description\" content=\"Kristina Auckland &#8211; Front end web developer\" />\n\n		<link media=\"screen,projection\" rel=\"stylesheet\" type=\"text/css\" href=\"css/layout.css\" />\n		<link media=\"screen,projection\" rel=\"stylesheet\" type=\"text/css\" href=\"css/content.css\" />\n		<link media=\"screen,projection\" rel=\"stylesheet\" type=\"text/css\" href=\"css/elements.css\" />\n		<!--[if lte IE 6]>\n			<link media=\"screen,projection\" rel=\"stylesheet\" type=\"text/css\" href=\"css/ie6.css\" />\n		<![endif]-->\n		<!--[if IE 7]>\n			<link media=\"screen,projection\" rel=\"stylesheet\" type=\"text/css\" href=\"css/ie7.css\" />\n		<![endif]-->\n\n		<!--[if IE]>\n			<script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\" />\n			<link media=\"screen,projection\" rel=\"stylesheet\" type=\"text/css\" href=\"css/ie.css\" />\n		<![endif]-->\n\n		<link media=\"print\" rel=\"stylesheet\" type=\"text/css\" href=\"css/print.css\" />\n\n		<script type=\"text/javascript\" src=\"http://use.typekit.com/gfb2hkq.js\"></script>\n		<script type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>\n\n	</head>\n\n	<body>\n\n		<div id=\"wrapper\">\n			<header>\n				<h1><a class=\"logo\" href=\"http://www.kaelifa.com/\">Kristina Auckland</a></h1>\n				<h2>Front end web developer based in Hampshire, UK.</h2>\n			</header>\n\n			<nav id=\"primary-nav\">\n				<ol>\n					<li class=\"current\"><a href=\"index.html\">About</a></li>\n					<li><a href=\"#contact\" title=\"Contact\">Contact</a></li>\n					<li><a href=\"#contact\" title=\"Curriculum Vitae\">Request CV</a></li>\n				</ol>\n			</nav>\n\n			<div id=\"content\">\n				<section class=\"main-content\">\n					<h1>Welcome to my website</h1>\n					<p>This site is a place for me to experiment with technologies that are not always supported across all browsers and platforms.</p>\n					<p>Meanwhile if you'd like to contact me then please <a href=\"mailto:email@kaelifa.com\" title=\"Email\">Email</a> me.\n				</section>\n			</div>\n\n			<footer id=\"contact\">\n				<h1>Contact me</h1>\n\n				<form action=\"contact.php\" method=\"post\">\n					<fieldset>\n						<ol>\n							<li class=\"form-input-text form-required\">\n								<label for=\"name\">\n									<strong>Name</strong>\n								</label>\n								<input type=\"text\" value=\"\" name=\"name\" id=\"name\"/>\n							</li>\n							<li class=\"form-input-text form-required\">\n								<label for=\"email\">\n									<strong>Email</strong>\n								</label>\n								<input type=\"text\" value=\"\" name=\"email\" id=\"email\"/>\n							</li>\n							<li class=\"form-textarea\">\n								<label for=\"message\">\n									<strong>Message</strong>\n								</label>\n								<textarea rows=\"10\" cols=\"30\" id=\"message\" name=\"message\"></textarea>\n							</li>\n							<li class=\"form-buttons\">\n								<input type=\"submit\" value=\"Send message\" class=\"input-submit\" />\n							</li>\n						</ol>\n					</fieldset>\n				</form>\n\n				<aside class=\"sub-content\">\n					<h2>Find me online</h2>\n					<ul>\n						<li><a href=\"http://www.twitter.com/kaelifa\" title=\"Twitter\">Twitter</a></li>\n						<li><a href=\"http://www.linkedin.com/in/kaelifa\" title=\"LinkedIn\">LinkedIn</a></li>\n						<li><a href=\"http://www.flickr.com/photos/kristinafloyd/\" title=\"Flickr\">Flickr</a></li>\n						<li><a href=\"https://github.com/kaelifa\" title=\"GitHub\">GitHub</a></li>\n					</ul>\n				</aside>\n\n			</footer>\n		</div>\n\n		<script type=\"text/javascript\">\n			var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");\n			document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n		</script>\n		<script type=\"text/javascript\">\n			var pageTracker = _gat._getTracker(\"UA-1763086-2\");\n			pageTracker._initData();\n			pageTracker._trackPageview();\n		</script>\n\n	</body>\n\n</html>\n",
+			"file": "development/www/wp-content/themes/starkers/template/css-src/partials/elements/_nav.scss",
 			"settings":
 			{
-				"buffer_size": 4015,
+				"buffer_size": 98,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "development/www/wp-content/themes/starkers/parts/shared/header.php",
+			"settings":
+			{
+				"buffer_size": 472,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "development/www/wp-content/themes/starkers/template/css-src/partials/variables/_colour-palette.scss",
+			"settings":
+			{
+				"buffer_size": 1028,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -231,16 +227,20 @@
 				"File: Duplicate"
 			],
 			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
 				"du",
 				"File: Duplicate"
 			],
 			[
 				"lore",
 				"Snippet: lorem - Medium paragraph"
-			],
-			[
-				"ren",
-				"File: Rename"
 			],
 			[
 				"de",
@@ -491,7 +491,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 460.0
+		"width": 567.0
 	},
 	"console":
 	{
@@ -508,62 +508,70 @@
 	},
 	"file_history":
 	[
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/single.php",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css/styles.css",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/config.rb",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/elements/_body.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_main.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/styles.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/parts/shared/html-footer.php",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_media-image.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/navigation/_primary.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_media-description.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_social.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_footer-copy.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_wrapper.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/settings/_susy.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_footer.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/global/_typography.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_media.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_header.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_sub-content.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_intro.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/elements/_form.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_contact.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_main-content.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/parts/shared/html-header.php",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/parts/shared/footer.php",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/single.php",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-admin/media.php",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css/dev.css",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/dev.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/scaffold/_susy.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/index.php",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/plugins/_disqus.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_blog-post.scss",
+		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css/styles.css",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/comments.php",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/css/reset.css",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/category.php",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/index.php",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/parts/shared/header.php",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/parts/shared/footer.php",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/404.php",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/index.php",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/external/starkers-utilities.php",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_blog-post.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_data-list.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/elements/_a.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_media-image.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_media.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_media-description.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/styles.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_media-title.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_respond.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_about-the-author.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/archive.php",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/functions.php",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/search.php",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/parts/shared/html-header.php",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_footer.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/elements/_time.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_author-description.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_comments.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/elements/_body.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_main.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_header.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_body.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/global/_typography.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/global/_normalize.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/config.rb",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_wrapper.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_footer-copy.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/navigation/_primary.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/mixins/_font-face.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/placeholders/_primary.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_contact.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_icon.scss",
 		"/Users/kristina/Sites/ClearAttitude/kristinafloyd/website/css/content.css",
 		"/Users/kristina/Sites/ClearAttitude/kristinafloyd/website/css/elements.css",
 		"/Users/kristina/Sites/ClearAttitude/kristinafloyd/website/css/layout.css",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-admin/admin-footer.php",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/parts/shared/html-footer.php",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/mixins/_font-stacks.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/variables/_path.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_latest-posts.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/mixins/_font-sizing.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/scaffold/_zengrid.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/elements/_form.scss",
-		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/scaffold/_susy.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/modules/_icons.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/fonts/_font-face.scss",
 		"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/starkers/template/css-src/partials/scaffold/_singularity.scss",
@@ -627,15 +635,7 @@
 		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/elements.html",
 		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/index.html",
 		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/home/logged-in.html",
-		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/templatetags/custom.py",
-		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/settings.py",
-		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/home/",
-		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/home/logged-in-home.html",
-		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/home/home.html",
-		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/logged-in-home.html",
-		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/home.html",
-		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/helpers/_sticky.scss",
-		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/style-guide/snippets/elements/Link"
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/templatetags/custom.py"
 	],
 	"find":
 	{
@@ -643,7 +643,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/kristina/Sites/kaelifa.com/development/www/wp-content/themes/",
@@ -737,6 +737,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<time",
+			"@include span-columns",
+			"@include container",
 			"reply-title",
 			"\"respond",
 			"respond",
@@ -861,10 +864,7 @@
 			"max_length=500",
 			"show_secretary_address",
 			" =",
-			"models",
-			"worming",
-			"qualifier = models.ForeignKey(Qualifier)",
-			"IntegerField"
+			"models"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -914,22 +914,23 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "development/www/wp-content/themes/starkers/index.php",
+					"file": "development/www/wp-content/themes/starkers/parts/shared/footer.php",
 					"settings":
 					{
-						"buffer_size": 1345,
+						"buffer_size": 3140,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1221,
-								1221
+								2447,
+								2447
 							]
 						],
 						"settings":
@@ -1028,264 +1029,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 313.0,
+						"translation.y": 520.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "development/www/wp-content/themes/starkers/single.php",
+					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_wrapper.scss",
 					"settings":
 					{
-						"buffer_size": 1283,
+						"buffer_size": 293,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								865,
-								865
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501",
-								"E401",
-								"W191"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 281.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "development/www/wp-content/themes/starkers/parts/shared/html-footer.php",
-					"settings":
-					{
-						"buffer_size": 486,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								468,
-								468
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501",
-								"E401",
-								"W191"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/plugins/_disqus.scss",
-					"settings":
-					{
-						"buffer_size": 37,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								37,
-								37
+								290,
+								170
 							]
 						],
 						"settings":
@@ -1390,19 +1152,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "development/www/wp-content/themes/starkers/template/css-src/styles.scss",
+					"buffer": 2,
+					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/modules/_sub-content.scss",
 					"settings":
 					{
-						"buffer_size": 2783,
+						"buffer_size": 168,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1934,
-								1934
+								15,
+								165
 							]
 						],
 						"settings":
@@ -1500,25 +1262,25 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 938.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/elements/_body.scss",
+					"buffer": 3,
+					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/default-layout/_main.scss",
 					"settings":
 					{
-						"buffer_size": 270,
+						"buffer_size": 159,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								270,
-								270
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1614,6 +1376,239 @@
 							},
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/modules/_main-content.scss",
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								154
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501",
+								"E401",
+								"W191"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/navigation/_primary.scss",
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								356
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501",
+								"E401",
+								"W191"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1623,18 +1618,18 @@
 				},
 				{
 					"buffer": 6,
-					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/modules/_blog-post.scss",
+					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/elements/_nav.scss",
 					"settings":
 					{
-						"buffer_size": 15,
+						"buffer_size": 98,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13,
-								13
+								92,
+								80
 							]
 						],
 						"settings":
@@ -1729,28 +1724,35 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
 					"buffer": 7,
-					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/modules/_main-content.scss",
+					"file": "development/www/wp-content/themes/starkers/parts/shared/header.php",
 					"settings":
 					{
-						"buffer_size": 47,
+						"buffer_size": 472,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								47,
-								47
+								472,
+								472
 							]
 						],
 						"settings":
@@ -1845,7 +1847,8 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1855,18 +1858,18 @@
 				},
 				{
 					"buffer": 8,
-					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/modules/_sub-content.scss",
+					"file": "development/www/wp-content/themes/starkers/template/css-src/partials/variables/_colour-palette.scss",
 					"settings":
 					{
-						"buffer_size": 52,
+						"buffer_size": 1028,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44,
-								44
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1969,133 +1972,6 @@
 					},
 					"type": "text"
 				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 9,
-					"settings":
-					{
-						"buffer_size": 4015,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3995,
-								3565
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501",
-								"E401",
-								"W191"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 381.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -2122,30 +1998,17 @@
 				0,
 				2,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
-			],
-			[
-				1,
-				1,
-				2,
-				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.525440897536,
+			0.538006591797,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.573187704494,
 			1.0
 		]
 	},
@@ -2165,28 +2028,160 @@
 		"selected_items":
 		[
 			[
-				"blog",
-				"wp-content/themes/starkers/template/css-src/partials/modules/_blog-post.scss"
+				"navscs",
+				"wp-content/themes/starkers/template/css-src/partials/elements/_nav.scss"
+			],
+			[
+				"prim",
+				"wp-content/themes/starkers/template/css-src/partials/navigation/_primary.scss"
+			],
+			[
+				"mainconte",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_main-content.scss"
+			],
+			[
+				"contentscss",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_sub-content.scss"
+			],
+			[
+				"main",
+				"wp-content/themes/starkers/template/css-src/partials/default-layout/_main.scss"
+			],
+			[
+				"sub",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_sub-content.scss"
+			],
+			[
+				"sty",
+				"wp-content/themes/starkers/template/css-src/styles.scss"
+			],
+			[
+				"wrap",
+				"wp-content/themes/starkers/template/css-src/partials/default-layout/_wrapper.scss"
 			],
 			[
 				"bod",
 				"wp-content/themes/starkers/template/css-src/partials/elements/_body.scss"
 			],
 			[
-				"sty",
-				"wp-content/themes/starkers/template/css/styles.css"
+				"conf",
+				"wp-content/themes/starkers/template/config.rb"
+			],
+			[
+				"pal",
+				"wp-content/themes/starkers/template/css-src/partials/variables/_colour-palette.scss"
+			],
+			[
+				"footer",
+				"wp-content/themes/starkers/parts/shared/footer.php"
+			],
+			[
+				"head",
+				"wp-content/themes/starkers/parts/shared/header.php"
+			],
+			[
+				"html",
+				"wp-content/themes/starkers/parts/shared/html-footer.php"
+			],
+			[
+				"wra",
+				"wp-content/themes/starkers/template/css-src/partials/default-layout/_wrapper.scss"
+			],
+			[
+				"sus",
+				"wp-content/themes/starkers/template/css-src/partials/settings/_susy.scss"
+			],
+			[
+				"soci",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_social.scss"
+			],
+			[
+				"footercop",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_footer-copy.scss"
+			],
+			[
+				"medides",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_media-description.scss"
+			],
+			[
+				"mediaim",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_media-image.scss"
+			],
+			[
+				"mediascs",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_media.scss"
+			],
+			[
+				"copy",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_footer-copy.scss"
+			],
+			[
+				"sing",
+				"wp-content/themes/starkers/single.php"
+			],
+			[
+				"foo",
+				"wp-content/themes/starkers/parts/shared/footer.php"
+			],
+			[
+				"meim",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_media-image.scss"
+			],
+			[
+				"medes",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_media-description.scss"
+			],
+			[
+				"medsc",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_media.scss"
+			],
+			[
+				"medi",
+				"wp-admin/media.php"
+			],
+			[
+				"pri",
+				"wp-content/themes/starkers/template/css-src/partials/navigation/_primary.scss"
+			],
+			[
+				"typ",
+				"wp-content/themes/starkers/template/css-src/partials/global/_typography.scss"
 			],
 			[
 				"soc",
 				"wp-content/themes/starkers/template/css-src/partials/modules/_social.scss"
 			],
 			[
-				"aboutthe",
-				"wp-content/themes/starkers/template/css-src/partials/modules/_about-the-author.scss"
+				"intr",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_intro.scss"
 			],
 			[
-				"foo",
-				"wp-content/themes/starkers/template/css-src/partials/default-layout/_footer.scss"
+				"dev",
+				"wp-content/themes/starkers/template/css/dev.css"
+			],
+			[
+				"footerscss",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_footer-copy.scss"
+			],
+			[
+				"social",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_social.scss"
+			],
+			[
+				"foot",
+				"wp-content/themes/starkers/parts/shared/footer.php"
+			],
+			[
+				"headscss",
+				"wp-content/themes/starkers/template/css-src/partials/default-layout/_header.scss"
+			],
+			[
+				"blog",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_blog-post.scss"
+			],
+			[
+				"aboutthe",
+				"wp-content/themes/starkers/template/css-src/partials/modules/_about-the-author.scss"
 			],
 			[
 				"ascss",
@@ -2197,16 +2192,8 @@
 				"wp-content/themes/starkers/template/css-src/partials/modules/_author-description.scss"
 			],
 			[
-				"foot",
-				"wp-content/themes/starkers/template/css-src/partials/default-layout/_footer.scss"
-			],
-			[
 				"headsc",
 				"wp-content/themes/starkers/template/css-src/partials/default-layout/_header.scss"
-			],
-			[
-				"head",
-				"wp-content/themes/starkers/parts/shared/header.php"
 			],
 			[
 				"mai",
@@ -2233,10 +2220,6 @@
 				"wp-content/themes/starkers/template/css-src/partials/global/_typography.scss"
 			],
 			[
-				"prim",
-				"wp-content/themes/starkers/template/css-src/partials/navigation/_primary.scss"
-			],
-			[
 				"footscs",
 				"wp-content/themes/starkers/template/css-src/partials/modules/_footer-copy.scss"
 			],
@@ -2247,10 +2230,6 @@
 			[
 				"heasc",
 				"wp-content/themes/starkers/template/css-src/partials/default-layout/_header.scss"
-			],
-			[
-				"wrap",
-				"wp-content/themes/starkers/template/css-src/partials/default-layout/_wrapper.scss"
 			],
 			[
 				"foosc",
@@ -2265,20 +2244,12 @@
 				"wp-content/themes/starkers/template/css-src/styles.scss"
 			],
 			[
-				"conf",
-				"wp-content/themes/starkers/template/config.rb"
-			],
-			[
 				"font",
 				"wp-content/themes/starkers/template/css-src/partials/mixins/_font-stacks.scss"
 			],
 			[
 				"icon",
 				"wp-content/themes/starkers/template/css-src/partials/modules/_icon.scss"
-			],
-			[
-				"typ",
-				"wp-content/themes/starkers/template/css-src/partials/global/_typography.scss"
 			],
 			[
 				"fon",
@@ -2349,10 +2320,6 @@
 				"wp-content/themes/starkers/template/css-src/partials/global/_border-box.scss"
 			],
 			[
-				"footer",
-				"wp-content/themes/starkers/parts/shared/footer.php"
-			],
-			[
 				"style",
 				"wp-content/themes/starkers/template/css-src/styles.scss"
 			],
@@ -2363,10 +2330,6 @@
 			[
 				"htmlhead",
 				"wp-content/themes/starkers/parts/shared/html-header.php"
-			],
-			[
-				"html",
-				"wp-content/themes/starkers/parts/shared/html-footer.php"
 			],
 			[
 				"det",

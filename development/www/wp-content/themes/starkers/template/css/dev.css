@@ -430,7 +430,7 @@ body {
 @media (min-width: 55em) {
   /* line 1, ../css-src/partials/elements/_body.scss */
   body {
-    background: white url("/wp-content/themes/starkers/template/images/background/bg.png") no-repeat 100% 115% fixed;
+    background: white url("/wp-content/themes/starkers/template/images/background/bg.png") no-repeat 100% 100% fixed;
   }
 }
 

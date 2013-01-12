@@ -13,4 +13,4 @@
 	</nav>
 </header>
 
-<div class="layoutMain">
+<div class="layoutMain" role="main">

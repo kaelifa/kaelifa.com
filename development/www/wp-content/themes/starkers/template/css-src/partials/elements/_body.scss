@@ -9,6 +9,6 @@ body {
 		background: $color-page-bg url('/wp-content/themes/starkers/template/images/background/bg.png') no-repeat 100% 150% fixed;
 	}
 	@include at-breakpoint($computer) {
-		background: $color-page-bg url('/wp-content/themes/starkers/template/images/background/bg.png') no-repeat 100% 115% fixed;
+		background: $color-page-bg url('/wp-content/themes/starkers/template/images/background/bg.png') no-repeat 100% 100% fixed;
 	}
 }
