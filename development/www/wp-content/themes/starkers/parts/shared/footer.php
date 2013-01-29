@@ -45,6 +45,8 @@
 				<li><a title="Fitbit" href="http://www.fitbit.com/user/23F5CX"><!-- <i class="icon icon-fitbit"></i> --> Fitbit</a></li>
 				<li><a title="Runkeeper" href="http://runkeeper.com/user/kaelifa"><!-- <i class="icon icon-runkeeper"></i> --> Runkeeper</a></li>
 				<li><a title="colourlovers" href="http://www.colourlovers.com/lover/kaelifa"><!-- <i class="icon icon-colourlovers"></i>  -->ColourLovers</a></li>
+				<li><a title="pinboard" href="https://pinboard.in/u:kaelifa"><!-- <i class="icon icon-pinboard"></i>  -->Pinboard</a></li>
+				<li><a title="Readmill" href="https://readmill.com/kaelifa"><!-- <i class="icon icon-readmill"></i>  -->Readmill</a></li>
 				<!--
 				<li><a title="Zerply" href="http://zerply.com/kaelifa"><i class="icon icon-zerply"></i> Zerply</a></li>
 				<li><a title="Behance" href="http://www.behance.net/kaelifa"><i class="icon icon-behance"></i> Behance</a></li>
