@@ -46,8 +46,13 @@
 				<li><a title="Runkeeper" href="http://runkeeper.com/user/kaelifa"><!-- <i class="icon icon-runkeeper"></i> --> Runkeeper</a></li>
 				<li><a title="colourlovers" href="http://www.colourlovers.com/lover/kaelifa"><!-- <i class="icon icon-colourlovers"></i>  -->ColourLovers</a></li>
 				<li><a title="pinboard" href="https://pinboard.in/u:kaelifa"><!-- <i class="icon icon-pinboard"></i>  -->Pinboard</a></li>
-				<li><a title="Readmill" href="https://readmill.com/kaelifa"><!-- <i class="icon icon-readmill"></i>  -->Readmill</a></li>
+				<li><a title="goodreads" href="http://www.goodreads.com/kaelifa"><!-- <i class="icon icon-goodreads"></i>  -->goodreads</a></li>
+				<li><a title="coderwall" href="https://coderwall.com/kaelifa"><!-- <i class="icon icon-coderwall"></i>  -->coderwall</a></li>
+				<li><a title="helpmewrite" href="http://helpmewrite.co/me/kaelifa"><!-- <i class="icon icon-helpmewrite"></i>  -->helpmewrite</a></li>
+				<li><a title="helpmewrite" href="http://lanyrd.com/profile/kaelifa/"><!-- <i class="icon icon-lanyrd"></i>  -->Lanyrd</a></li>
+
 				<!--
+				<li><a title="gimmebar" href="https://gimmebar.com/loves/kaelifa"><i class="icon icon-gimmebar"></i> Gimmebar</a></li>
 				<li><a title="Zerply" href="http://zerply.com/kaelifa"><i class="icon icon-zerply"></i> Zerply</a></li>
 				<li><a title="Behance" href="http://www.behance.net/kaelifa"><i class="icon icon-behance"></i> Behance</a></li>
 				<li><a title="Dribbble" href="http://dribbble.com/kaelifa">class="icon icon-dribbble" Dribbble</a></li>
