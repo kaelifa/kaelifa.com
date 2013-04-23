@@ -1,30 +1,87 @@
 @charset "UTF-8";
+@import url("//hello.myfonts.net/count/24f625");
 /**
- * @projectDescription    it-contractor-mortgages.co.uk
+ * @projectDescription    kaelifa.com
  *               @file    styles.css
  *             @author    Kristina Auckland <kristina.auckland@gmail.com>
- *            @version    0.1
- *               @date    2013-04-20 09:12
+ *            @version    2.0
+ *               @date    2013-04-23 19:45
  */
 /** @section     Compass */
 /** @section     Grid */
 /** @section     Settings */
 /** @section     Variables */
 /** @section     Mixins */
+@font-face {
+  font-family: 'JustVectorRegular';
+  src: url("/wp-content/themes/starkers/template/fonts/justvector-webfont.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/justvector-webfont.eot?#iefix") format("eot"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/justvector-webfont.svg#webfontmuk63VQd") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JustVector';
+  src: url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.eot?#iefix") format("eot"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/justvectorv2-webfont.svg#webfontkw9J4lGf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @license
+ * MyFonts Webfont Build ID 2422309, 2012-12-02T09:08:37-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Yummo by Flat-it
+ * URL: http://www.myfonts.com/fonts/flat-it/yummo/regular/
+ *
+ * Webfont: Yummo Semi Bold by Flat-it
+ * URL: http://www.myfonts.com/fonts/flat-it/yummo/semi-bold/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2422309
+ * Webfonts copyright: Copyright (c) 2011 by Ryoichi Tsunekawa. All rights reserved.
+ *
+ * © 2012 Bitstream Inc
+*/
+@font-face {
+  font-family: 'Yummo-Regular';
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_0_0.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_0_0.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/24F625_0_0.svg#wf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yummo-SemiBold';
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_1_0.eot");
+  src: url("/wp-content/themes/starkers/template/fonts/24F625_1_0.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.woff") format("woff"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.ttf") format("truetype"), url("/wp-content/themes/starkers/template/fonts/24F625_1_0.svg#wf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /** @section     Global */
+/* line 14, ../../../../../../../Library/Ruby/Gems/1.8/gems/susy-1.0.5/sass/susy/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/* line 7, ../css-src/partials/global/_selection.scss */
 ::-moz-selection {
-  background: #ffcc99;
+  background: #dfcdb4;
   text-shadow: none;
 }
 
+/* line 12, ../css-src/partials/global/_selection.scss */
 ::selection {
-  background: #ffcc99;
+  background: #dfcdb4;
   text-shadow: none;
 }
 
@@ -33,7 +90,7 @@
  *
  *      @author    normalize.css v2.0.1 | MIT License | git.io/normalize
  *     @version    0.1
- *        @date    2013-03-13 14:23
+ *        @date    2013-04-23 21:28
  *
  *
  *     @example
@@ -47,6 +104,7 @@
  *     @section   HTML5 display definitions
  *       @notes   Corrects `block` display not defined in IE 8/9.
  */
+/* line 32, ../css-src/partials/global/_normalize.scss */
 article,
 aside,
 details,
@@ -64,6 +122,7 @@ summary {
 /**
  *       @notes   Corrects `inline-block` display not defined in IE 8/9.
  */
+/* line 41, ../css-src/partials/global/_normalize.scss */
 audio,
 canvas,
 video {
@@ -74,41 +133,50 @@ video {
  *       @notes   Prevents modern browsers from displaying `audio` without controls.
  *
  */
+/* line 54, ../css-src/partials/global/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
+/* line 63, ../css-src/partials/global/_normalize.scss */
 [hidden] {
   display: none;
 }
 
+/* line 80, ../css-src/partials/global/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
 
+/* line 89, ../css-src/partials/global/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
 }
 
+/* line 102, ../css-src/partials/global/_normalize.scss */
 h1 {
   font-size: 2em;
 }
 
+/* line 110, ../css-src/partials/global/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
+/* line 118, ../css-src/partials/global/_normalize.scss */
 dfn {
   font-style: italic;
 }
 
+/* line 126, ../css-src/partials/global/_normalize.scss */
 mark {
-  background: #ffcc99;
-  color: black;
+  background: #dfcdb4;
+  color: #1a1a1a;
 }
 
+/* line 138, ../css-src/partials/global/_normalize.scss */
 code,
 kbd,
 pre,
@@ -117,20 +185,24 @@ samp {
   font-size: 1em;
 }
 
+/* line 147, ../css-src/partials/global/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
+/* line 157, ../css-src/partials/global/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
+/* line 165, ../css-src/partials/global/_normalize.scss */
 small {
   font-size: 80%;
 }
 
+/* line 174, ../css-src/partials/global/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -139,39 +211,47 @@ sup {
   vertical-align: baseline;
 }
 
+/* line 181, ../css-src/partials/global/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
+/* line 185, ../css-src/partials/global/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
+/* line 198, ../css-src/partials/global/_normalize.scss */
 img {
   border: 0;
   vertical-align: middle;
 }
 
+/* line 207, ../css-src/partials/global/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
+/* line 219, ../css-src/partials/global/_normalize.scss */
 figure {
   margin: 0;
 }
 
+/* line 231, ../css-src/partials/global/_normalize.scss */
 fieldset {
-  border: 1px solid #ffcc99;
+  border: 1px solid gray;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
+/* line 243, ../css-src/partials/global/_normalize.scss */
 legend {
   border: 0;
   padding: 0;
   white-space: normal;
 }
 
+/* line 258, ../css-src/partials/global/_normalize.scss */
 button,
 input,
 select,
@@ -181,11 +261,13 @@ textarea {
   margin: 0;
 }
 
+/* line 270, ../css-src/partials/global/_normalize.scss */
 button,
 input {
   line-height: normal;
 }
 
+/* line 285, ../css-src/partials/global/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -194,16 +276,19 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+/* line 295, ../css-src/partials/global/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
+/* line 304, ../css-src/partials/global/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   padding: 0;
 }
 
+/* line 314, ../css-src/partials/global/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -211,21 +296,135 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
+/* line 327, ../css-src/partials/global/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
+/* line 336, ../css-src/partials/global/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
+/* line 347, ../css-src/partials/global/_normalize.scss */
 textarea {
   overflow: auto;
   resize: vertical;
   vertical-align: top;
+}
+
+/* line 6, ../css-src/partials/global/_typography.scss */
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+/* line 10, ../css-src/partials/global/_typography.scss */
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+@media (min-width: 55em) {
+  /* line 10, ../css-src/partials/global/_typography.scss */
+  body {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
+
+/* line 17, ../css-src/partials/global/_typography.scss */
+h1 {
+  font-size: 30px;
+  font-size: 3rem;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  margin: 0 0 0.5em 0;
+}
+@media (min-width: 55em) {
+  /* line 17, ../css-src/partials/global/_typography.scss */
+  h1 {
+    font-size: 55px;
+    font-size: 5.5rem;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+}
+
+/* line 33, ../css-src/partials/global/_typography.scss */
+h2,
+h3,
+h4,
+h5 {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-weight: normal;
+}
+
+/* line 37, ../css-src/partials/global/_typography.scss */
+h2 {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+@media (min-width: 55em) {
+  /* line 37, ../css-src/partials/global/_typography.scss */
+  h2 {
+    font-size: 42px;
+    font-size: 4.2rem;
+  }
+}
+
+/* line 46, ../css-src/partials/global/_typography.scss */
+h3 {
+  font-size: 22px;
+  font-size: 2.2rem;
+}
+@media (min-width: 55em) {
+  /* line 46, ../css-src/partials/global/_typography.scss */
+  h3 {
+    font-size: 26px;
+    font-size: 2.6rem;
+  }
+}
+
+/* line 55, ../css-src/partials/global/_typography.scss */
+h4 {
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* line 59, ../css-src/partials/global/_typography.scss */
+h5 {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+/* line 62, ../css-src/partials/global/_typography.scss */
+h6 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+/* line 67, ../css-src/partials/global/_typography.scss */
+.formField,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* line 71, ../css-src/partials/global/_typography.scss */
+small {
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+/* line 74, ../css-src/partials/global/_typography.scss */
+button {
+  font-weight: bold;
 }
 
 /** @section     Elements */
@@ -234,7 +433,7 @@ textarea {
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 09:41
+ *        @date    2013-04-23 21:28
  *
  *
  *     @example
@@ -247,6 +446,7 @@ textarea {
 /**
  * @section        html
  */
+/* line 21, ../css-src/partials/elements/_html.scss */
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -260,7 +460,7 @@ html {
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 09:18
+ *        @date    2013-04-23 21:27
  *
  *
  *     @example
@@ -273,9 +473,10 @@ html {
 /**
  * @section        body
  */
+/* line 21, ../css-src/partials/elements/_body.scss */
 body {
   background: white;
-  color: black;
+  color: #1a1a1a;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13px;
   font-size: 1.3rem;
@@ -286,7 +487,7 @@ body {
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-03-13 12:33
+ *        @date    2013-04-23 21:28
  *
  *
  *     @example
@@ -299,6 +500,7 @@ body {
 /**
  * @section        nav
  */
+/* line 24, ../css-src/partials/elements/_nav.scss */
 nav ul,
 nav ol,
 nav li {
@@ -312,7 +514,7 @@ nav li {
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 09:19
+ *        @date    2013-04-23 21:27
  *
  *
  *     @example
@@ -325,15 +527,9 @@ nav li {
 /**
  * @section        a
  */
+/* line 21, ../css-src/partials/elements/_a.scss */
 a {
-  color: #ff6600;
-  text-decoration: underline;
-}
-a:visited {
-  color: #990000;
-}
-a:hover, a:active {
-  text-decoration: underline;
+  color: #429398;
 }
 
 /**
@@ -341,7 +537,7 @@ a:hover, a:active {
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-16 20:35
+ *        @date    2013-04-23 21:28
  *
  *
  *     @example
@@ -354,6 +550,7 @@ a:hover, a:active {
 /**
  * @section        p
  */
+/* line 21, ../css-src/partials/elements/_p.scss */
 p {
   margin: 1em 0;
 }
@@ -363,7 +560,7 @@ p {
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 09:19
+ *        @date    2013-04-23 21:28
  *
  *
  *     @example
@@ -376,8 +573,9 @@ p {
 /**
  * @section        h1
  */
+/* line 21, ../css-src/partials/elements/_hx.scss */
 h1 {
-  color: #ff6600;
+  color: #429398;
   font-size: 18px;
   font-size: 1.8rem;
   margin: 0;
@@ -386,8 +584,9 @@ h1 {
 /**
  * @section        h2
  */
+/* line 30, ../css-src/partials/elements/_hx.scss */
 h2 {
-  color: #990000;
+  color: #6b5d4d;
   font-size: 16px;
   font-size: 1.6rem;
 }
@@ -395,8 +594,9 @@ h2 {
 /**
  * @section        h3
  */
+/* line 38, ../css-src/partials/elements/_hx.scss */
 h3 {
-  color: #990000;
+  color: #6b5d4d;
 }
 
 /**
@@ -413,7 +613,7 @@ h3 {
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-03-13 12:30
+ *        @date    2013-04-23 21:27
  *
  *
  *     @example
@@ -426,9 +626,10 @@ h3 {
 /**
  * @section        hr
  */
+/* line 21, ../css-src/partials/elements/_hr.scss */
 hr {
   border: 0;
-  border-top: 1px solid #ffcc99;
+  border-top: 1px solid gray;
   display: block;
   height: 1px;
   margin: 1em 0;
@@ -440,7 +641,7 @@ hr {
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-03-13 11:57
+ *        @date    2013-04-23 21:27
  *
  *
  *     @example
@@ -453,6 +654,7 @@ hr {
 /**
  * @section        em
  */
+/* line 21, ../css-src/partials/elements/_em.scss */
 em {
   font-style: italic;
 }
@@ -462,7 +664,7 @@ em {
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-03-13 12:33
+ *        @date    2013-04-23 21:28
  *
  *
  *     @example
@@ -475,9 +677,53 @@ em {
 /**
  * @section        strong
  */
+/* line 22, ../css-src/partials/elements/_strong.scss */
 b,
 strong {
   font-weight: bold;
+}
+
+/**
+ * @description    Form styling
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:27
+ *
+ *
+ *     @example
+ *                 <form>
+</form>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        form
+ */
+/**
+ * @description    Creates the default styling for time element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:28
+ *
+ *
+ *     @example
+ *                 <time datetime="2013-04-20">April 20</time>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+/**
+ * @section        time
+ */
+/* line 21, ../css-src/partials/elements/_time.scss */
+time {
+  font-weight: bold;
+  margin: 1em 0;
 }
 
 /** @section     Layout */
@@ -486,7 +732,7 @@ strong {
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 11:06
+ *        @date    2013-04-23 21:26
  *
  *
  *     @example
@@ -499,28 +745,12 @@ strong {
 /**
  * @section        layoutWrapper
  */
-.layoutWrapper {
-  *zoom: 1;
-  max-width: 111em;
-  _width: 111em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 0.5em;
-}
-.layoutWrapper:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /**
  * @description    Styling for the main layout header
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 09:26
+ *        @date    2013-04-23 21:25
  *
  *
  *     @example
@@ -534,30 +764,12 @@ strong {
 /**
  * @section        layoutHeader
  */
-.layoutHeader {
-  *zoom: 1;
-  max-width: 111em;
-  _width: 111em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: #990000 2px solid;
-  padding: 0;
-  padding-bottom: 0.5em;
-}
-.layoutHeader:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /**
  * @description    Styling for the main layout content area
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 09:38
+ *        @date    2013-04-23 21:25
  *
  *
  *     @example
@@ -576,7 +788,7 @@ strong {
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 09:19
+ *        @date    2013-04-23 21:25
  *
  *
  *     @example
@@ -590,97 +802,13 @@ strong {
 /**
  * @section        layoutFooter
  */
-.layoutFooter {
-  text-align: right;
-}
-
-/**
- * @description    Styling for the main content area
- *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
- *     @version    0.1
- *        @date    2013-04-20 09:39
- *
- *
- *     @example
- *                 <div class="contentMain">
- *
- *                 </div>
- *
- *        @type    layout
- *       @notes
- */
-/**
- * @section        contentMain
- */
-.contentMain {
-  width: 66.10169%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
-}
-
-/**
- * @description    Styling for the Supporting content area
- *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
- *     @version    0.1
- *        @date    2013-04-20 11:02
- *
- *
- *     @example
- *                 <div class="contentSupporting">
- *
- *                 </div>
- *
- *        @type    layout
- *       @notes
- */
-/**
- * @section        contentSupporting
- */
-.contentSupporting {
-  width: 15.25424%;
-  float: right;
-  margin-right: 0;
-  #margin-left: -1em;
-  display: inline;
-}
-
-/**
- * @description    Styling for the Intro content area
- *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
- *     @version    0.1
- *        @date    2013-04-20 11:07
- *
- *
- *     @example
- *                 <div class="contentIntro"></div>
- *
- *        @type    layout
- *       @notes
- */
-/**
- * @section        contentIntro
- */
-.contentIntro {
-  width: 15.25424%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
-}
-.contentIntro > :first-child {
-  margin-top: 0;
-}
-
 /** @section     Navigation */
 /**
  * @description    styling for navPrimary
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 09:23
+ *        @date    2013-04-23 21:30
  *
  *
  *     @example
@@ -693,395 +821,721 @@ strong {
 /**
  * @section        navPrimary
  */
-.navPrimary {
+/** @section     Modules */
+/**
+ * @description    media module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:35
+ *
+ *
+ *     @example
+ *                 <div class="media"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        .media
+ */
+/* line 21, ../css-src/partials/modules/_media.scss */
+.media {
   *zoom: 1;
-  max-width: 111em;
-  _width: 111em;
+  max-width: 26em;
+  _width: 26em;
   padding-left: 1em;
   padding-right: 1em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1em;
 }
-.navPrimary:after {
+/* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.media:after {
   content: "";
   display: table;
   clear: both;
 }
-.navPrimary li {
+@media (min-width: 41em) {
+  /* line 21, ../css-src/partials/modules/_media.scss */
+  .media {
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .media:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/modules/_media.scss */
+  .media {
+    max-width: 61em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .media:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/**
+ * @description    mediaImage module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:35
+ *
+ *
+ *     @example
+ *                 <div class="mediaImage"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        .mediaImage
+ */
+/* line 21, ../css-src/partials/modules/_media-image.scss */
+.mediaImage {
+  width: 37.5%;
   float: left;
+  margin-right: 4.16667%;
+  display: inline;
+}
+@media (min-width: 41em) {
+  /* line 21, ../css-src/partials/modules/_media-image.scss */
+  .mediaImage {
+    width: 13.7931%;
+    float: left;
+    margin-right: 3.44828%;
+  }
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/modules/_media-image.scss */
+  .mediaImage {
+    width: 6.77966%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+
+/**
+ * @description    mediaDescription module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:35
+ *
+ *
+ *     @example
+ *                 <div class="mediaDescription"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        .mediaDescription
+ */
+/* line 21, ../css-src/partials/modules/_media-description.scss */
+.mediaDescription {
+  width: 58.33333%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+@media (min-width: 41em) {
+  /* line 21, ../css-src/partials/modules/_media-description.scss */
+  .mediaDescription {
+    width: 82.75862%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/modules/_media-description.scss */
+  .mediaDescription {
+    width: 83.05085%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/**
+ * @description    mediaTitle module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:35
+ *
+ *
+ *     @example
+ *                 <div class="mediaTitle"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        .mediaTitle
+ */
+/* line 21, ../css-src/partials/modules/_media-title.scss */
+.mediaTitle {
+  margin: 0 0 1em 0;
+}
+
+/**
+ * @description    intro module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:35
+ *
+ *
+ *     @example
+ *                 <div class="intro"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        .intro
+ */
+@media (min-width: 41em) {
+  /* line 21, ../css-src/partials/modules/_intro.scss */
+  .intro {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/modules/_intro.scss */
+  .intro {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+
+/**
+ * @description    mainContent module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:35
+ *
+ *
+ *     @example
+ *                 <div class="mainContent"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        .mainContent
+ */
+@media (min-width: 41em) {
+  /* line 21, ../css-src/partials/modules/_main-content.scss */
+  .mainContent {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/modules/_main-content.scss */
+  .mainContent {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+
+/**
+ * @description    subContent module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:35
+ *
+ *
+ *     @example
+ *                 <div class="subContent"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        .subContent
+ */
+@media (min-width: 41em) {
+  /* line 21, ../css-src/partials/modules/_sub-content.scss */
+  .subContent {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/modules/_sub-content.scss */
+  .subContent {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/**
+ * @description    contact module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:35
+ *
+ *
+ *     @example
+ *                 <div class="contact"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        .contact
+ */
+@media (min-width: 41em) {
+  /* line 21, ../css-src/partials/modules/_contact.scss */
+  .contact {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/modules/_contact.scss */
+  .contact {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+
+/**
+ * @description    social module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:35
+ *
+ *
+ *     @example
+ *                 <div class="social"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        .social
+ */
+/* line 21, ../css-src/partials/modules/_social.scss */
+.social {
+  *zoom: 1;
+  max-width: 26em;
+  _width: 26em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 -1em;
+}
+/* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.social:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 41em) {
+  /* line 21, ../css-src/partials/modules/_social.scss */
+  .social {
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 -1em;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .social:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/modules/_social.scss */
+  .social {
+    max-width: 61em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 -1em;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .social:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+/* line 33, ../css-src/partials/modules/_social.scss */
+.social ul,
+.social li {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+/* line 38, ../css-src/partials/modules/_social.scss */
+.social li {
   margin-right: 1em;
 }
-.navPrimary a {
-  font-weight: bold;
-}
 
 /**
- * @description    styling for navSidebar
+ * @description    icon module
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 09:23
+ *        @date    2013-04-23 21:35
  *
  *
  *     @example
- *                 <a href=""></a>
- *
- *
- *        @type    nav
- *       @notes
- */
-/**
- * @section        navSidebar
- */
-.navSidebar {
-  margin-bottom: 75px;
-}
-.navSidebar li {
-  margin-bottom: 1em;
-}
-.navSidebar a {
-  background: #ff6600 no-repeat 4px 50%;
-  color: white;
-  display: block;
-  font-size: 16px;
-  font-size: 1.6rem;
-  font-weight: bold;
-  padding: 1em 1em 1em 45px;
-  text-decoration: underline;
-}
-
-/**
- * @section        sb_gettingStarted
- */
-.sb_gettingStarted {
-  background: #ff6600 no-repeat 4px 50%;
-  border: 2px solid #ffcc99;
-  color: white;
-  font-size: 16px;
-  font-size: 1.6rem;
-  padding-top: 3px;
-  text-align: center;
-}
-.sb_gettingStarted a {
-  background-image: url(/images/arrow.gif);
-  text-align: left;
-}
-
-/**
- * @section        sb_enquireNow
- */
-.sb_enquireNow a {
-  background-image: url(/images/apply.gif);
-}
-
-/**
- * @section        sb_faqs
- */
-.sb_faqs a {
-  background-image: url(/images/faqs.gif);
-}
-
-/**
- * @section        sb_home
- */
-.sb_home a {
-  background-image: url(/images/arrow.gif);
-}
-
-/**
- * @description    styling for navPlanner
- *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
- *     @version    0.1
- *        @date    2013-04-21 10:54
- *
- *
- *     @example
- *                 <nav class="navPlanner"></nav>
- *
- *
- *        @type    nav
- *       @notes
- */
-/**
- * @section        navPlanner
- */
-.navPlanner {
-  font-size: 16px;
-  font-size: 1.6rem;
-  padding-top: 2em;
-}
-.navPlanner li {
-  padding-bottom: 1em;
-}
-
-/** @section     Modules */
-/**
- * @description    callUs module
- *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
- *     @version    0.1
- *        @date    2013-04-20 09:20
- *
- *
- *     @example
- *                 <div class="callUs"></div>
+ *                 <div class="icon"></div>
  *
  *
  *        @type    module
  *       @notes
  */
 /**
- * @section        .callUs
+ * @section        .icon
  */
-.callUs {
-  color: #333333;
-  display: block;
-  font-size: 18px;
-  font-size: 1.8rem;
-  font-family: Verdana, Geneva, sans-serif;
-  font-weight: normal;
-  text-shadow: 3px 3px 12px #333333;
-  text-decoration: none;
+/* line 21, ../css-src/partials/modules/_icon.scss */
+.icon {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
 }
-.callUs:hover, .callUs:visited {
-  color: #333333;
-  text-decoration: none;
+
+/* line 28, ../css-src/partials/modules/_icon.scss */
+.icon-twitter {
+  background-image: url(/wp-content/themes/starkers/template/icons/twitter_alt.svg);
 }
-.callUs span {
-  font-size: 22px;
-  font-size: 2.2rem;
+
+/* line 31, ../css-src/partials/modules/_icon.scss */
+.icon-linkedin {
+  background-image: url(/wp-content/themes/starkers/template/icons/linkedin.svg);
+}
+
+/* line 34, ../css-src/partials/modules/_icon.scss */
+.icon-github {
+  background-image: url(/wp-content/themes/starkers/template/icons/github_alt.svg);
+}
+
+/* line 49, ../css-src/partials/modules/_icon.scss */
+.icon-colourlovers {
+  color: #000;
 }
 
 /**
- * @description    banner module
+ * @description    footerCopy module
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 10:02
+ *        @date    2013-04-23 21:35
  *
  *
  *     @example
- *                 <div class="banner"></div>
+ *                 <div class="footerCopy"></div>
  *
  *
  *        @type    module
  *       @notes
  */
 /**
- * @section        .banner
+ * @section        .footerCopy
  */
-.banner {
-  text-align: center;
+/* line 21, ../css-src/partials/modules/_footer-copy.scss */
+.footerCopy {
+  margin: 3em 0 5em 0;
 }
-.banner a {
-  background: #ff6600;
-  color: black;
-  font-size: 20px;
-  font-size: 2rem;
-  padding: 3px 0.5em;
-  text-decoration: none;
+@media (min-width: 41em) {
+  /* line 21, ../css-src/partials/modules/_footer-copy.scss */
+  .footerCopy {
+    max-width: 41em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 -1em;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .footerCopy:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
-.banner span {
-  color: white;
+@media (min-width: 55em) {
+  /* line 21, ../css-src/partials/modules/_footer-copy.scss */
+  .footerCopy {
+    max-width: 61em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 -1em;
+    margin-bottom: 5em;
+  }
+  /* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .footerCopy:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 /**
- * @description    specialFeatures module
+ * @description    latestPosts module
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 11:38
+ *        @date    2013-04-23 21:35
  *
  *
  *     @example
- *                 <div class="specialFeatures"></div>
+ *                 <div class="latestPosts"></div>
  *
  *
  *        @type    module
  *       @notes
  */
 /**
- * @section        .specialFeatures
+ * @section        .latestPosts
  */
-.specialFeatures {
-  border-bottom: dashed 2px #990000;
-  font-size: 16px;
-  font-size: 1.6rem;
+/* line 21, ../css-src/partials/modules/_latest-posts.scss */
+.latestPosts {
+  list-style: none;
+  padding-left: 0;
 }
-.specialFeatures h3 {
-  border-bottom: dashed 2px #990000;
-  padding-bottom: 0.5em;
+/* line 24, ../css-src/partials/modules/_latest-posts.scss */
+.latestPosts li {
+  list-style: none;
+  padding-left: 0;
 }
 
 /**
- * @description    highlight module
+ * @description    blogPost module
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 20:44
+ *        @date    2013-04-23 21:35
  *
  *
  *     @example
- *                 <p>Some text <strong class="highlight">highlighted words</strong></p>
- *
- *
- *        @type    module
- *       @notes    should be used alongside a semantically meaningful highlight element eg; strong, em
- */
-/**
- * @section        .highlight
- */
-.highlight {
-  color: #ff6600;
-  font-size: 16px;
-  font-size: 1.6rem;
-}
-a .highlight, a:visited .highlight {
-  color: #ff6600;
-}
-.highlight span {
-  color: black;
-}
-
-/**
- * @description    listStar module
- *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
- *     @version    0.1
- *        @date    2013-04-21 08:59
- *
- *
- *     @example
- *                 <ul class="listStar"></ul>
+ *                 <div class="blogPost"></div>
  *
  *
  *        @type    module
  *       @notes
  */
 /**
- * @section        .listStar
+ * @section        .blogPost
  */
-.listStar {
-  margin-left: 22.93578%;
-  margin-right: 22.93578%;
-  margin-bottom: 2em;
-  padding: 0;
-}
-.listStar li {
-  background: transparent url(/images/star.gif) no-repeat 4px 50%;
-  list-style-type: none;
-  margin-bottom: 1em;
-  padding-left: 40px;
-}
-
 /**
- * @description    listPlanner module
+ * @description    aboutTheAuthor module
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-21 08:59
+ *        @date    2013-04-23 21:35
  *
  *
  *     @example
- *                 <ul class="listPlanner"></ul>
+ *                 <div class="aboutTheAuthor"></div>
  *
  *
  *        @type    module
  *       @notes
  */
 /**
- * @section        .listPlanner
+ * @section        .aboutTheAuthor
  */
-.listPlanner h3 {
-  color: #990000;
-  font-size: 13px;
-  font-size: 1.3rem;
+/* line 21, ../css-src/partials/modules/_about-the-author.scss */
+.aboutTheAuthor {
+  margin-top: 3em;
 }
 
 /**
- * @description    listMortgagePlanner module
+ * @description    authorDescription module
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-21 11:36
+ *        @date    2013-04-23 21:35
  *
  *
  *     @example
- *                 <ul class="listMortgagePlanner"></ul>
+ *                 <div class="authorDescription"></div>
  *
  *
  *        @type    module
  *       @notes
  */
 /**
- * @section        .listMortgagePlanner
+ * @section        .authorDescription
  */
-.listMortgagePlanner {
-  margin-left: 13.76147%;
-  margin-right: 13.76147%;
-  margin-bottom: 2em;
-  padding: 0;
+/**
+ * @description    dataList module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:35
+ *
+ *
+ *     @example
+ *                 <div class="dataList"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        .dataList
+ */
+/* line 21, ../css-src/partials/modules/_data-list.scss */
+.dataList {
+  list-style: none;
+  padding-left: 0;
 }
-.listMortgagePlanner li {
-  padding-bottom: 0.25em;
-}
-.listMortgagePlanner a {
-  background: transparent url(/images/question_mark.gif) no-repeat 4px 50%;
-  display: block;
-  list-style-type: none;
-  padding: 0.5em 0 0.5em 50px;
-}
-.listMortgagePlanner .mp_enquire a {
-  background: transparent url(/images/tick.gif) no-repeat 4px 50%;
+/* line 24, ../css-src/partials/modules/_data-list.scss */
+.dataList > li {
+  list-style: none;
 }
 
+/**
+ * @description    comments module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-23 21:35
+ *
+ *
+ *     @example
+ *                 <div class="comments"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+/**
+ * @section        .comments
+ */
 /** @section     Plugins */
+/* line 1, ../css-src/partials/plugins/_disqus.scss */
+#disqus_thread {
+  margin-top: 3em;
+}
+
 /** @section     Helpers */
-/**
- * @description    ac (align center) helper class
- *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
- *     @version    0.1
- *        @date    2013-04-21 09:33
- *
- *
- *     @example
- *                 <p class="ac"></p>
- *
- *
- *        @type    module
- *       @notes
- */
-/**
- * @section        .ac
- */
-.ac {
-  text-align: center;
-}
-
-/**
- * @description    brand helper class
- *
- *      @author    Kristina Auckland <kristina.auckland@gmail.com>
- *     @version    0.1
- *        @date    2013-04-21 10:35
- *
- *
- *     @example
- *                 <p class="brand"></p>
- *
- *
- *        @type    module
- *       @notes
- */
-/**
- * @section        .brand
- */
-.brand {
-  color: #ff6600;
-}
-
 /** @section     Print */
+@media print {
+  /* line 2, ../css-src/partials/media/_print.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 10, ../css-src/partials/media/_print.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 14, ../css-src/partials/media/_print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 18, ../css-src/partials/media/_print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 28, ../css-src/partials/media/_print.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 33, ../css-src/partials/media/_print.scss */
+  pre,
+  blockquote {
+    border: 1px solid gray;
+    page-break-inside: avoid;
+  }
+
+  /* line 38, ../css-src/partials/media/_print.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 43, ../css-src/partials/media/_print.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 47, ../css-src/partials/media/_print.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 57, ../css-src/partials/media/_print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 63, ../css-src/partials/media/_print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
 /** @section     Development */

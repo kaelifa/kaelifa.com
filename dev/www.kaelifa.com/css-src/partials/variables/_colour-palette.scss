@@ -1,20 +1,37 @@
 //Colour palette
 
 // Define colours
-$color-white:				#fff;
-$color-black:				#000;
+$color-white:               #fff;
+$color-black:               #000;
+$color-brand:               #000;
 
+// Add URL to colour scheme if one has been used
+// http://www.colourlovers.com/palette/1389950/teal_brocade
 // Hex
-$color-brand-primary:		#ff6600;	// Orange
-$color-brand-secondary:		#990000;	// dark orange
+$color-brand-primary:               #429398;    // Rainforest
+$color-brand-secondary:             #6b5d4d;    // Molasses
+$color-brand-tertiary:              #b0a18f;    // Natural twine
 
-$color-brand-complementary1:	#ffcc99;	// gold
+$color-brand-complementary1:        #dfcdb4;    // Reed
+$color-brand-complementary2:        #fbeed3;    // Gypsy moth
 
-$color-copy:				$color-black;
-$color-page-bg:				$color-white;
+// RBG
+$color-brand-rgb-primary:           66,147,152; // Rainforest - #429398
+$color-brand-rgb-secondary:         107,93,77;  // Molasses - #6b5d4d
+$color-brand-rgb-tertiary:          176,161,143;    // Natural twine - #b0a18f
 
-$color-border:				$color-brand-complementary1;
-$color-mark:				$color-brand-complementary1;
-$color-selection:			$color-brand-complementary1;
-$color-almost-black: 		#333;
-$color-brand:				$color-brand-primary;
+$color-brand-rgb-complementary1:    223,205,180;    // Reed - #dfcdb4
+$color-brand-rgb-complementary2:    251,238,211;    // Gypsy moth - #fbeed3
+
+// $color-brand-complementary:  rgba(120, 192, 192, 1);
+
+$color-copy:                        lighten($color-black, 10%);
+$color-text-shadow:                 darken($color-white, 5%);
+$color-page-bg:                     $color-white;
+
+$color-border:                      lighten($color-black, 50%);
+
+$color-mark:                        $color-brand-complementary1;
+$color-selection:                   $color-brand-complementary1;
+$color-almost-black:                #333;
+$color-brand:                       $color-brand-primary;

@@ -2,8 +2,8 @@
  * @description    Styling for the main layout content area
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
- *     @version    2.0
- *        @date    2013-04-23 19:51
+ *     @version    0.1
+ *        @date    2013-04-23 21:25
  *
  *
  *     @example
@@ -20,11 +20,5 @@
  * @section        layoutMain
  */
 .layoutMain {
-	@include container;
-	@include at-breakpoint($tablet) {
-		@include container;
-	}
-	@include at-breakpoint($computer) {
-		@include container;
-	}
+
 }

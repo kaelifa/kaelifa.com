@@ -4,19 +4,17 @@
 // Set up your default grid values: total columns, column width, and gutter width.
 // $total-columns	: 12;			// a 12-column grid
 // $column-width	: 4em;			// each column is 4em wide
-// $gutter-width	: 1em;			// 1em gutters between columns
-// $grid-padding	: $gutter-width;	// grid-padding equal to gutters
+// $gutter-width		: 1em;			// 1em gutters between columns
+// $grid-padding		: $gutter-width;	// grid-padding equal to gutters
 
-$total-columns	: 22;			// a 12-column grid
+$total-columns	: 5;			// a 12-column grid
 $column-width	: 4em;			// each column is 4em wide
-$gutter-width	: 1em;			// 1em gutters between columns
-$grid-padding	: $gutter-width;	// grid-padding equal to gutters
+$gutter-width		: 1em;			// 1em gutters between columns
+$grid-padding		: $gutter-width;	// grid-padding equal to gutters
 
-// $container-style: static;
-
-// $break: 12;
+$break: 12;
 
 //alternative layout breakpoints
-// $mobile-landscape: 6;
-// $tablet: 12;
-// $computer: 55em 12;
+$mobile-landscape: 6;
+$tablet: 8;
+$computer: 55em 12;

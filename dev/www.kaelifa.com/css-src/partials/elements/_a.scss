@@ -3,7 +3,7 @@
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
  *     @version    0.1
- *        @date    2013-04-20 09:19
+ *        @date    2013-04-23 21:27
  *
  *
  *     @example
@@ -20,12 +20,4 @@
  */
 a {
 	color: $color-brand-primary;
-	text-decoration: underline;
-	&:visited {
-		color: $color-brand-secondary;
-	}
-	&:hover,
-	&:active {
-		text-decoration: underline;
-	}
 }
