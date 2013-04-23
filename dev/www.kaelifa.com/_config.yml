@@ -1,0 +1,14 @@
+# Set Jekyll to watch for changes and re-generate site when a change is made
+auto: true
+
+# Exclude the following from the build
+# exclude css-src as this is the sass and not required for output
+# exclude .sass-cache as not requrired for output
+# exclude config.rb as these are the configuration settings for compass
+# exclude _maintenance.htm as site is not in maintenance mode - re-enable _maintenance.htm and rename to index.html if site is in maintenance mode
+
+# core files/folders to exclude
+exclude: [css-src, .sass-cache, config.rb, .sublime-project, .scss, README.md, _maintenance.htm]
+
+# permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:title.html

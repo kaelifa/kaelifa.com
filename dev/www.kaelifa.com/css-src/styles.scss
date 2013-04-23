@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/**
+ * @projectDescription    it-contractor-mortgages.co.uk
+ *               @file    styles.css
+ *             @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *            @version    0.1
+ *               @date    2013-04-20 09:12
+ */
+
+// * NB. This is the master Sass file which imports all the partials.
+// * No CSS should be written in this file.
+
+/** @section     Compass */
+@import "compass/css3";
+
+/** @section     Grid */
+@import "susy";
+
+/** @section     Settings */
+@import "partials/settings/susy";
+
+/** @section     Variables */
+@import "partials/variables/colour-palette";
+
+/** @section     Mixins */
+@import "partials/mixins/font-sizing";
+@import "partials/mixins/font-stacks";
+@import "partials/mixins/rgba-bg";
+
+/** @section     Global */
+@include border-box-sizing;
+@import "partials/global/selection";
+@import "partials/global/normalize";
+
+/** @section     Elements */
+@import "partials/elements/html";
+@import "partials/elements/body";
+@import "partials/elements/nav";
+@import "partials/elements/a";
+@import "partials/elements/p";
+@import "partials/elements/hx";
+@import "partials/elements/hr";
+@import "partials/elements/em";
+@import "partials/elements/strong";
+
+/** @section     Layout */
+@import "partials/default-layout/layout-wrapper";
+@import "partials/default-layout/layout-header";
+@import "partials/default-layout/layout-main";
+@import "partials/default-layout/layout-footer";
+
+@import "partials/default-layout/content-main";
+@import "partials/default-layout/content-supporting";
+@import "partials/default-layout/content-intro";
+
+/** @section     Navigation */
+@import "partials/navigation/primary";
+@import "partials/navigation/sidebar";
+@import "partials/navigation/planner";
+
+/** @section     Modules */
+@import "partials/modules/call-us";
+@import "partials/modules/banner";
+@import "partials/modules/special-features";
+@import "partials/modules/highlight";
+@import "partials/modules/list-star";
+@import "partials/modules/list-planner";
+@import "partials/modules/list-mortgage-planner";
+
+/** @section     Plugins */
+// @import "partials/plugins/XXXX";
+
+/** @section     Helpers */
+// @import "partials/helpers/ir";
+// @import "partials/helpers/hidden";
+// @import "partials/helpers/visually-hidden";
+// @import "partials/helpers/invisible";
+@import "partials/helpers/ac";
+@import "partials/helpers/brand";
+
+/** @section     Print */
+// @import "partials/media/print";
+
+/** @section     Development */
+// @import "partials/development/debug";
+// @import "partials/development/style-guide";
