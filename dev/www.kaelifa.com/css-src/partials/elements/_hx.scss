@@ -1,0 +1,61 @@
+/**
+ * @description    Heading styles
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-20 09:19
+ *
+ *
+ *     @example
+ *                 <h1></h1>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+
+
+/**
+ * @section        h1
+ */
+h1 {
+	color: $color-brand-primary;
+	@include font-size(1.8);
+	margin: 0;
+}
+
+/**
+ * @section        h2
+ */
+h2 {
+	color: $color-brand-secondary;
+	@include font-size(1.6);
+}
+
+/**
+ * @section        h3
+ */
+h3 {
+	color: $color-brand-secondary;
+}
+
+/**
+ * @section        h4
+ */
+h4 {
+
+}
+
+/**
+ * @section        h5
+ */
+h5 {
+
+}
+
+/**
+ * @section        h6
+ */
+h6 {
+
+}

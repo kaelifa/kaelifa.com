@@ -1,0 +1,37 @@
+/**
+ * @description    callUs module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-20 09:20
+ *
+ *
+ *     @example
+ *                 <div class="callUs"></div>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+
+
+/**
+ * @section        .callUs
+ */
+.callUs {
+    color: $color-almost-black;
+    display: block;
+    @include font-size(1.8);
+    @include secondary-font-stack;
+    font-weight: normal;
+    text-shadow: 3px 3px 12px $color-almost-black;
+    text-decoration: none;
+    &:hover,
+    &:visited {
+        color: $color-almost-black;
+        text-decoration: none;
+    }
+    span {
+        @include font-size(2.2);
+    }
+}

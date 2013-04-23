@@ -1,0 +1,24 @@
+/**
+ * @description    Creates the default styling for time element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-16 19:13
+ *
+ *
+ *     @example
+ *                 <time datetime="2013-04-20">April 20</time>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+
+
+/**
+ * @section        time
+ */
+time {
+	font-weight: bold;
+	margin: 1em 0;
+}

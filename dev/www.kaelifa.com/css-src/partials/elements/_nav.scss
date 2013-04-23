@@ -1,0 +1,29 @@
+/**
+ * @description    Styling for the nav element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-03-13 12:33
+ *
+ *
+ *     @example
+ *                 <nav></nav>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+
+
+/**
+ * @section        nav
+ */
+nav {
+	ul,
+	ol,
+	li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+}

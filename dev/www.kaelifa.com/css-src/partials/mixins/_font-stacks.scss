@@ -1,0 +1,12 @@
+@mixin default-font-stack {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+@mixin secondary-font-stack {
+	font-family: Verdana, Geneva, sans-serif;
+}
+@mixin headline-font-stack {
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+@mixin logo-font-stack {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}

@@ -1,0 +1,31 @@
+/**
+ * @description    Creates the default styling for links
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-20 09:19
+ *
+ *
+ *     @example
+ *                 <a href=""></a>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+
+
+/**
+ * @section        a
+ */
+a {
+	color: $color-brand-primary;
+	text-decoration: underline;
+	&:visited {
+		color: $color-brand-secondary;
+	}
+	&:hover,
+	&:active {
+		text-decoration: underline;
+	}
+}

@@ -1,0 +1,27 @@
+/**
+ * @description    Styling for the html element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-20 09:41
+ *
+ *
+ *     @example
+ *                 <html></html>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+
+
+/**
+ * @section        html
+ */
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	overflow-y: scroll;
+	@include default-font-stack;
+	font-size: 62.5%;
+}

@@ -1,0 +1,25 @@
+/**
+ * @description    Styling for the Intro content area
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-20 11:07
+ *
+ *
+ *     @example
+ *                 <div class="contentIntro"></div>
+ *
+ *        @type    layout
+ *       @notes
+ */
+
+
+/**
+ * @section        contentIntro
+ */
+.contentIntro {
+	@include span-columns(2,12);
+	> :first-child {
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,27 @@
+/**
+ * @description    Styling for the main layout header
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-20 09:26
+ *
+ *
+ *     @example
+ *                 <header class="layoutHeader" role="banner">
+ *
+ *                 </header>
+ *
+ *        @type    layout
+ *       @notes
+ */
+
+
+/**
+ * @section        layoutHeader
+ */
+.layoutHeader {
+	@include container;
+	border-bottom: $color-brand-secondary 2px solid;
+	padding: 0;
+	padding-bottom: 0.5em;
+}

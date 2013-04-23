@@ -1,0 +1,26 @@
+/**
+ * @description    listPlanner module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-21 08:59
+ *
+ *
+ *     @example
+ *                 <ul class="listPlanner"></ul>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+
+
+/**
+ * @section        .listPlanner
+ */
+.listPlanner {
+    h3 {
+        color: $color-brand-secondary;
+        @include font-size(1.3);
+    }
+}

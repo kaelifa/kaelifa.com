@@ -1,0 +1,38 @@
+/**
+ * @description    listMortgagePlanner module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-21 11:36
+ *
+ *
+ *     @example
+ *                 <ul class="listMortgagePlanner"></ul>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+
+
+/**
+ * @section        .listMortgagePlanner
+ */
+.listMortgagePlanner {
+	@include pre(3);
+    @include post(3);
+    margin-bottom: 2em;
+    padding: 0;
+    li {
+    	padding-bottom: 0.25em;
+    }
+    a {
+        background: transparent url(/images/question_mark.gif) no-repeat 4px 50%;
+        display: block;
+        list-style-type: none;
+        padding: 0.5em 0 0.5em 50px;
+    }
+    .mp_enquire a {
+        background: transparent url(/images/tick.gif) no-repeat 4px 50%;
+    }
+}

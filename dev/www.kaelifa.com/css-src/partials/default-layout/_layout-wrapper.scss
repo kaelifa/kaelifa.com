@@ -1,0 +1,24 @@
+/**
+ * @description    Styling for the main layout wrapper
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-20 11:06
+ *
+ *
+ *     @example
+ *                 <div class="layoutWrapper"></div>
+ *
+ *
+ *        @type    layout
+ *       @notes
+ */
+
+
+/**
+ * @section        layoutWrapper
+ */
+.layoutWrapper {
+	@include container;
+	padding-top: 0.5em;
+}

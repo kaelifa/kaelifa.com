@@ -1,0 +1,26 @@
+/**
+ * @description    Creates the default styling for the body element
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-20 09:18
+ *
+ *
+ *     @example
+ *                 <body>
+ *
+ *
+ *        @type    element
+ *       @notes
+ */
+
+
+/**
+ * @section        body
+ */
+body {
+	background: $color-page-bg;
+	color: $color-copy;
+	@include default-font-stack;
+	@include font-size(1.3);
+}

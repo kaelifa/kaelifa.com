@@ -1,0 +1,31 @@
+/**
+ * @description    styling for navPrimary
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-20 09:23
+ *
+ *
+ *     @example
+ *                 <a href=""></a>
+ *
+ *
+ *        @type    nav
+ *       @notes
+ */
+
+
+/**
+ * @section        navPrimary
+ */
+.navPrimary {
+	@include container;
+	margin-bottom: 1em;
+	li {
+		float: left;
+		margin-right: 1em;
+	}
+	a {
+		font-weight: bold;
+	}
+}

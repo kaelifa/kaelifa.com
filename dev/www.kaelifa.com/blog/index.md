@@ -6,6 +6,8 @@ description: ""
 
 # {{ page.title }}
 
+## Latest posts
+
 <ul class="entries">
   {% for post in site.posts %}
 

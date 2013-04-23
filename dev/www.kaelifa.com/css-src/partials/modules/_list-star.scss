@@ -1,0 +1,32 @@
+/**
+ * @description    listStar module
+ *
+ *      @author    Kristina Auckland <kristina.auckland@gmail.com>
+ *     @version    0.1
+ *        @date    2013-04-21 08:59
+ *
+ *
+ *     @example
+ *                 <ul class="listStar"></ul>
+ *
+ *
+ *        @type    module
+ *       @notes
+ */
+
+
+/**
+ * @section        .listStar
+ */
+.listStar {
+    @include pre(5);
+    @include post(5);
+    margin-bottom: 2em;
+    padding: 0;
+    li {
+        background: transparent url(/images/star.gif) no-repeat 4px 50%;
+        list-style-type: none;
+        margin-bottom: 1em;
+        padding-left: 40px;
+    }
+}
