@@ -1,0 +1,9 @@
+.media {
+	@include container;
+	@include at-breakpoint($tablet) {
+		@include container;
+	}
+	@include at-breakpoint($computer) {
+		@include container;
+	}
+}

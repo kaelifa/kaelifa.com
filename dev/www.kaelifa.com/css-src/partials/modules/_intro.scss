@@ -1,0 +1,8 @@
+.intro {
+	@include at-breakpoint($tablet) {
+		@include span-columns(8,12);
+	}
+	@include at-breakpoint($computer) {
+		@include span-columns(8,12);
+	}
+}

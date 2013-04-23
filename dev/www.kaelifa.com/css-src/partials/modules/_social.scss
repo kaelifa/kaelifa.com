@@ -1,0 +1,21 @@
+.social {
+	@include container;
+	margin: 0 0 - $grid-padding;
+	@include at-breakpoint($tablet) {
+		@include container;
+		margin: 0 0 - $grid-padding;
+	}
+	@include at-breakpoint($computer) {
+		@include container;
+		margin: 0 0 - $grid-padding;
+	}
+	ul,
+	li {
+		list-style: none;
+		margin-bottom: 0;
+		padding-left: 0;
+	}
+	li {
+		margin-right: 1em;
+	}
+}

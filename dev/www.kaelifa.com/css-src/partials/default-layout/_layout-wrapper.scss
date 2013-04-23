@@ -2,8 +2,8 @@
  * @description    Styling for the main layout wrapper
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
- *     @version    0.1
- *        @date    2013-04-20 11:06
+ *     @version    2.0
+ *        @date    2013-04-23 19:51
  *
  *
  *     @example
@@ -20,5 +20,15 @@
  */
 .layoutWrapper {
 	@include container;
-	padding-top: 0.5em;
+	margin: 0 0 - $grid-padding;
+	@include at-breakpoint($mobile-landscape) {
+		@include container;
+		margin: 0 0 - $grid-padding;
+	}
+	@include at-breakpoint($tablet) {
+		@include container;
+	}
+	@include at-breakpoint($computer) {
+		@include container;
+	}
 }

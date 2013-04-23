@@ -1,21 +1,22 @@
 # Require any additional compass plugins here.
 require "susy"
 require 'modular-scale'
+require 'sassy-buttons'
 
 # Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "css"
 sass_dir = "css-src"
-images_dir = "images"
+images_dir = "/template-assets/images"
 javascripts_dir = "js"
-fonts_dir = "fonts"
+fonts_dir = "/template-assets/fonts"
 
 # output_style = :compressed
 # output_style = :compact
 # output_style = :nested
 output_style = :expanded
-environment = :production
-# environment = :development
+# environment = :production
+environment = :development
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 # relative_assets = true

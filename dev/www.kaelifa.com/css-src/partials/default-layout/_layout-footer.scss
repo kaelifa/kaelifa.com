@@ -2,8 +2,8 @@
  * @description    Stying for the main layout footer
  *
  *      @author    Kristina Auckland <kristina.auckland@gmail.com>
- *     @version    0.1
- *        @date    2013-04-20 09:19
+ *     @version    2.0
+ *        @date    2013-04-23 19:50
  *
  *
  *     @example
@@ -20,8 +20,13 @@
  * @section        layoutFooter
  */
 .layoutFooter {
-	text-align: right;
-	p {
-		// margin: 0;
+	@include container;
+	@include at-breakpoint($tablet) {
+		@include container;
 	}
+	@include at-breakpoint($computer) {
+		@include container;
+		margin-bottom: 5em;
+	}
+	margin-top: 2em;
 }
